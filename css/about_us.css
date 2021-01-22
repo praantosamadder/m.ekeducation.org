@@ -6,12 +6,13 @@
 
 /* Why ekeducation */
 .why_eke {
+    color: wheat;
     font-family: 'Libre Baskerville', serif;
     font-size: 70px;
 }
 
 .education_color_change {
-    color: wheat;
+    color: #9cdea7;
 }
 
 .row2_about_us {
@@ -26,4 +27,40 @@
     line-height: 53px;
     color: white;
     font-size: 30px;
+}
+
+.row3_about_us {
+    padding-top: 12vh;
+
+}
+
+.card_view_template_about_us {
+    margin-bottom: 8vh;
+}
+
+.card_view_title_about_us {
+    margin: 1.5vh 6vw 0.4vh;
+    font-weight: bold;
+    color: wheat;
+    font-size: 35px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.card_view_image_about_us {
+    margin: auto;
+    height: 25vh;
+    width: 90vw;
+    background-image: url("../img/stock/unsplash/card_view_template_2.jpg");
+    background-size: cover;
+}
+
+.card_view_description_about_us {
+    margin-left: 6vw;
+    margin-right: 15vw;
+    line-height: 48px;
+    color: white;
+    font-size: 30px;
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+
 }
