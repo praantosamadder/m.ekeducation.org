@@ -1,0 +1,33 @@
+
+.top_header {
+    height: 6vh;
+    background-color: aliceblue;
+
+    /* add shadow */
+}
+
+.front_card {
+    height: 50vh;
+    background-color: aqua;
+}
+
+.about_us {
+    height: 50vh;
+    background-color: blue;
+
+}
+
+.admissions {
+    height: 50vh;
+    background-color: chocolate;
+}
+
+.location {
+    height: 50vh;
+    background-color: darkcyan;
+}
+
+.footer {
+    height: 40vh;
+    background-color: #f3e1ce;
+}
