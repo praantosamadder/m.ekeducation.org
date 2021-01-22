@@ -1,0 +1,25 @@
+.row1_about_us {
+    padding-left: 30px;
+    padding-right: 70px;
+    padding-top: 290px;
+}
+
+.why_eke {
+    font-size: 100px;
+}
+
+.education_color_change {
+    color: wheat;
+}
+
+.row2_about_us {
+    padding-left: 6vw;
+    padding-right: 25vw;
+    padding-top: 30px;
+}
+
+.eke_explanations {
+    text-align: justify;
+    color: white;
+    font-size: 40px;
+}

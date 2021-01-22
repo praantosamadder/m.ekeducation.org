@@ -6,7 +6,6 @@
     bottom: 0;
 }
 
-
 .top_header {
     height: 7vh;
     background: blueviolet;
@@ -18,7 +17,7 @@
 
 
 .front_card {
-    height: 70vh;
+    height: 100vh;
     background-color: aqua;
 }
 
