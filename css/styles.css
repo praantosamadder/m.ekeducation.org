@@ -1,6 +1,14 @@
+.admissions_banner {
+    height: 4vh;
+    background-color: aliceblue;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
 
 .top_header {
-    height: 6vh;
+    height: 7vh;
     background: blueviolet;
     position: -webkit-sticky;
     position: sticky;
@@ -10,19 +18,19 @@
 
 
 .front_card {
-    height: 50vh;
+    height: 70vh;
     background-color: aqua;
 }
 
 
 .about_us {
-    height: 50vh;
+    height: 120vh;
     background-color: blue;
 
 }
 
 .admissions {
-    height: 50vh;
+    height: 70vh;
     background-color: chocolate;
 }
 
