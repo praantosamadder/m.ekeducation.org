@@ -1,15 +1,19 @@
 
 .top_header {
     height: 6vh;
-    background-color: aliceblue;
-
+    background: blueviolet;
+    position: -webkit-sticky;
+    position: sticky;
+    top: -1px;
     /* add shadow */
 }
+
 
 .front_card {
     height: 50vh;
     background-color: aqua;
 }
+
 
 .about_us {
     height: 50vh;
@@ -28,6 +32,6 @@
 }
 
 .footer {
-    height: 40vh;
+    height: 70vh;
     background-color: #f3e1ce;
 }
