@@ -30,7 +30,7 @@
 }
 
 .row3_about_us {
-    padding-top: 12vh;
+    padding-top: 6vh;
 
 }
 
@@ -52,6 +52,17 @@
     width: 90vw;
     background-image: url("../img/stock/unsplash/card_view_template_2.jpg");
     background-size: cover;
+}
+
+.great_explorations {
+    margin-left: 3vw;
+    margin-right: 3vw;
+    padding-top: 10vh;
+    color: white;
+    font-family: 'Libre Baskerville', sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
 }
 
 .card_view_description_about_us {
