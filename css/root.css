@@ -10,3 +10,15 @@ html, body {
 .full_width {
     width: 100vw;
 }
+
+.full_height {
+    height: 100vh;
+}
+
+.match_parent_height {
+    height: 100%;
+}
+
+.match_parent_width {
+    width: 100%;
+}
