@@ -8,6 +8,10 @@
 .why_eke_label_fraction {
 }
 
+.why_eke_label_bg {
+    background-color: #2D2D2D;
+}
+
 .why_eke_svg {
     margin-top: 10vh;
 }
