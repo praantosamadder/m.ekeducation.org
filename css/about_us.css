@@ -27,26 +27,27 @@
 }
 
 .row_excellence {
-    margin-left: 10vw;
-    margin-right: 8vw;
+    margin-left: 6vw;
+    margin-right: 12vw;
     padding-top: 13vh;
     font-family: "Libre Baskerville", serif;
 }
 
 .excellence_text {
     color: wheat;
-    font-size: 80px;
+    font-size: 75px;
 }
 
 .excellence_subtitle {
-    padding-top: 2vh;
+    padding-top: 2.5vh;
     color: wheat;
     font-size: 47px;
 }
 
 .excellence_explanation {
-    padding-top: 1vh;
-    line-height: 50px;
+    padding-top: 0.8vh;
+    line-height: 55px;
     color: white;
-    font-size: 35px;
+    font-size: 28px;
+    letter-spacing: 1px;
 }
