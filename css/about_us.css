@@ -1,5 +1,8 @@
+.top_section_why_eke {
+    display: block;
+}
+
 .label_section {
-    height: 50vh;
     background-color: #2D2D2D;
     display: grid;
     grid-template-columns: 15vw 1fr;
@@ -14,7 +17,7 @@
 
 .why_eke_label_text {
     /* brings text down */
-    margin-top: 10vh;
+    margin-top: 280px;
 }
 
 .why_eke_svg {
@@ -27,27 +30,40 @@
 }
 
 .row_excellence {
-    margin-left: 6vw;
-    margin-right: 12vw;
-    padding-top: 13vh;
+    margin-left: 60px;
+    margin-right: 120px;
+    padding-top: 300px;
     font-family: "Libre Baskerville", serif;
 }
 
-.excellence_text {
+.text_the_excellence_of_O_A_Level {
     color: wheat;
-    font-size: 75px;
+    font-size: 80px;
 }
 
 .excellence_subtitle {
-    padding-top: 2.5vh;
+    padding-top: 25px;
     color: wheat;
     font-size: 47px;
 }
 
 .excellence_explanation {
-    padding-top: 0.8vh;
+    padding-top: 8px;
     line-height: 55px;
     color: white;
     font-size: 28px;
     letter-spacing: 1px;
+}
+
+.divider_line_row_container {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.divider_line {
+    height: 3px;
+    width: 300px;
+    border-radius: 99px;
+    background-color: #F5DEB3;
 }
