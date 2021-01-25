@@ -21,6 +21,6 @@ if (getDeviceType() !== "mobile") {
     // window.location.replace("")
 }
 
-// alert("Platform" + navigator.platform)
+alert("100vh")
 // alert("AppCodeName" + navigator.appCodeName)
 
