@@ -45,14 +45,14 @@
 .excellence_subtitle {
     padding-top: 5vh;
     color: wheat;
-    font-size: 43px;
+    font-size: 48px;
 }
 
 .excellence_explanation {
     padding-top: 1vh;
     line-height: 55px;
     color: white;
-    font-size: 25px;
+    font-size: 30px;
     letter-spacing: 1px;
 }
 
@@ -67,4 +67,23 @@
     width: 300px;
     border-radius: 99px;
     background-color: #F5DEB3;
+}
+
+.what_you_see_is_what_you_get {
+    color: wheat;
+    text-align: center;
+    font-size: 57px;
+    font-family: "Libre Baskerville", serif;
+    margin-top: 3vh;
+}
+
+.what_you_see_explanation {
+    margin-left: 10vw;
+    margin-top: 1vh;
+    line-height: 40px;
+    color: white;
+    text-align: center;
+    margin-right: 10vw;
+    font-family: "Libre Baskerville", serif;
+    font-size: 27px;
 }
