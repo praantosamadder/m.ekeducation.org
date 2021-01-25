@@ -45,14 +45,14 @@
 .excellence_subtitle {
     padding-top: 100px;
     color: wheat;
-    font-size: 26px;
+    font-size: 45px;
 }
 
 .excellence_explanation {
     padding-top: 10px;
-    line-height: 45px;
+    line-height: 47px;
     color: white;
-    font-size: 12px;
+    font-size: 25px;
     letter-spacing: 1px;
 }
 
@@ -74,18 +74,18 @@
 .what_you_see_is_what_you_get {
     color: wheat;
     text-align: center;
-    font-size: 35px;
+    font-size: 55px;
     font-family: "Libre Baskerville", serif;
     margin-top: 80px;
 }
 
 .what_you_see_explanation {
-    margin: 25px 40px 200px;
-    line-height: 15px;
+    margin: 20px 35px 200px;
+    line-height: 45px;
     color: white;
     text-align: center;
     font-family: "Libre Baskerville", serif;
-    font-size: 10px;
+    font-size: 30px;
 }
 
 .card_view_why_eke {
@@ -105,21 +105,19 @@
 .cv_we_title {
     margin-top: 25px;
     color: wheat;
-    margin-left: 60px;
-    margin-right: 60px;
-    font-size: 11px;
+    margin-left: 45px;
+    margin-right: 40px;
+    font-size: 28px;
     font-weight: bold;
 }
 
 .cv_we_desc {
-    margin-left: 60px;
-    margin-right: 60px;
+    margin-left: 45px;
+    margin-right: 45px;
     color: #FFF6E6;
-    font-size: 9px;
-    line-height: 13px;
+    font-size: 24px;
+    line-height: 35px;
     margin-top: 10px;
-    letter-spacing: 1px;
-    font-weight: bold;
 }
 
 .card_view_why_eke_last {
