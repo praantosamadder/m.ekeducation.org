@@ -9,7 +9,7 @@
 }
 
 .why_eke_label_bg {
-    background-color: black;
+    background-color: #2D2D2D;
 }
 
 .why_eke_label_text {
@@ -21,7 +21,26 @@
 }
 
 
-.please_go_fuck_urself_inspector {
+.please_go_fuck_yourself_inspector {
     background-color: #2D2D2D;
     height: 100%;
+}
+
+.row_excellence {
+    margin-left: 10vw;
+    margin-right: 5vw;
+    padding-top: 10vh;
+}
+
+.excellence_text {
+    color: wheat;
+    font-family: "Libre Baskerville", serif;
+    font-size: 80px;
+}
+
+.excellence_subtitle {
+    padding-top: 2vh;
+    color: wheat;
+    font-family: "Libre Baskerville", serif;
+    font-size: 47px;
 }
