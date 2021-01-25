@@ -30,7 +30,7 @@
 }
 
 .row_excellence {
-    margin-left: 80px;
+    margin-left: 75px;
     letter-spacing: 1px;
     margin-right: 120px;
     padding-top: 11vh;
@@ -43,16 +43,16 @@
 }
 
 .excellence_subtitle {
-    padding-top: 2.5vh;
+    padding-top: 5vh;
     color: wheat;
-    font-size: 47px;
+    font-size: 43px;
 }
 
 .excellence_explanation {
-    padding-top: 0.8vh;
+    padding-top: 1vh;
     line-height: 55px;
     color: white;
-    font-size: 28px;
+    font-size: 25px;
     letter-spacing: 1px;
 }
 
