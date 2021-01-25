@@ -21,6 +21,7 @@
 }
 
 .why_eke_svg {
+    
 }
 
 
@@ -59,7 +60,7 @@
 .divider_line_row_container {
     display: flex;
     justify-content: center;
-    margin-top: 280px;
+    margin-top: 350px;
 }
 
 .divider_line {
@@ -78,12 +79,44 @@
 }
 
 .what_you_see_explanation {
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 25px;
+    margin: 25px 40px 200px;
     line-height: 45px;
     color: white;
     text-align: center;
     font-family: "Libre Baskerville", serif;
-    font-size: 30px;
+    font-size: 33px;
+}
+
+.card_view_why_eke {
+    margin-top: 100px;
+    font-family: "Libre Baskerville", serif;
+}
+
+.cv_we_image {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90vw;
+    background-color: #EEEEEE;
+    height: 420px;
+
+}
+
+.cv_we_title {
+    margin-top: 25px;
+    color: wheat;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 33px;
+    font-weight: bold;
+}
+
+.cv_we_desc {
+    margin-left: 50px;
+    margin-right: 50px;
+    color: #FFF6E6;
+    font-size: 22px;
+    line-height: 35px;
+    margin-top: 10px;
+    letter-spacing: 1px;
+    font-weight: bold;
 }

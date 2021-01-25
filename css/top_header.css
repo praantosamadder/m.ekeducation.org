@@ -1,0 +1,13 @@
+.top_bar {
+    display: grid;
+    grid-template-columns: 1fr 18vw;
+}
+
+.logo_top_bar {
+
+}
+
+.menu_button {
+    background-color: #2D2D2D;
+    height: 100%;
+}
