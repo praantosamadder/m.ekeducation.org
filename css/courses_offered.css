@@ -1,6 +1,7 @@
 .label_section_courses_offered {
     display: grid;
     grid-template-columns: 1fr 150px;
+    margin-bottom: 350px;
 }
 
 .courses_offered_label_right {
@@ -25,7 +26,7 @@
 .all_general_courses_offered_text {
     padding-top: 60px;
     color: #D1A85B;
-    font-size: 55px;
+    font-size: 57px;
     font-family: "Libre Baskerville", serif;
     line-height: 70px;
 }
@@ -34,13 +35,13 @@
     margin-top: 30px;
     font-family: "Libre Baskerville", serif;
     color: #909090;
-    font-size: 30px;
+    font-size: 32px;
     letter-spacing: 1px;
     line-height: 55px;
 }
 
 .card_view_subject_list_container {
-    margin-top: 350px;
+    margin-bottom: 60px;
 }
 
 .cv_sl_template {
@@ -75,6 +76,7 @@
 
 .cv_sl_subs_cam {
     padding-left: 40px;
+    padding-right: 40px;
     letter-spacing: 0.5px;
     font-size: 25px;
     color: #979797;
