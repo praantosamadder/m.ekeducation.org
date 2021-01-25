@@ -17,7 +17,7 @@
 
 .why_eke_label_text {
     /* brings text down */
-    margin-top: 280px;
+    margin-top: 10vh;
 }
 
 .why_eke_svg {
@@ -30,9 +30,10 @@
 }
 
 .row_excellence {
-    margin-left: 60px;
+    margin-left: 80px;
+    letter-spacing: 1px;
     margin-right: 120px;
-    padding-top: 300px;
+    padding-top: 11vh;
     font-family: "Libre Baskerville", serif;
 }
 
@@ -42,13 +43,13 @@
 }
 
 .excellence_subtitle {
-    padding-top: 25px;
+    padding-top: 2.5vh;
     color: wheat;
     font-size: 47px;
 }
 
 .excellence_explanation {
-    padding-top: 8px;
+    padding-top: 0.8vh;
     line-height: 55px;
     color: white;
     font-size: 28px;
@@ -58,7 +59,7 @@
 .divider_line_row_container {
     display: flex;
     justify-content: center;
-    margin-top: 5px;
+    margin-top: 8vh;
 }
 
 .divider_line {
