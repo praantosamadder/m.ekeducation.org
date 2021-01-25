@@ -70,21 +70,23 @@
     background-color: #F5DEB3;
 }
 
+
+/*What you see*/
 .what_you_see_is_what_you_get {
     color: wheat;
     text-align: center;
-    font-size: 57px;
+    font-size: 35px;
     font-family: "Libre Baskerville", serif;
     margin-top: 80px;
 }
 
 .what_you_see_explanation {
     margin: 25px 40px 200px;
-    line-height: 45px;
+    line-height: 15px;
     color: white;
     text-align: center;
     font-family: "Libre Baskerville", serif;
-    font-size: 33px;
+    font-size: 10px;
 }
 
 .card_view_why_eke {
@@ -95,28 +97,32 @@
 .cv_we_image {
     margin-left: auto;
     margin-right: auto;
-    width: 90vw;
+    width: 88vw;
     background-color: #EEEEEE;
-    height: 30vh;
+    height: 25vh;
 
 }
 
 .cv_we_title {
     margin-top: 25px;
     color: wheat;
-    margin-left: 50px;
-    margin-right: 50px;
-    font-size: 33px;
+    margin-left: 60px;
+    margin-right: 60px;
+    font-size: 11px;
     font-weight: bold;
 }
 
 .cv_we_desc {
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 60px;
+    margin-right: 60px;
     color: #FFF6E6;
-    font-size: 22px;
-    line-height: 35px;
+    font-size: 9px;
+    line-height: 13px;
     margin-top: 10px;
     letter-spacing: 1px;
     font-weight: bold;
+}
+
+.card_view_why_eke_last {
+    padding-bottom: 100px;
 }
