@@ -5,7 +5,7 @@
 .label_section {
     background-color: #2D2D2D;
     display: grid;
-    grid-template-columns: 15vw 1fr;
+    grid-template-columns: 150px 1fr;
 }
 
 .why_eke_label_fraction {
@@ -17,7 +17,7 @@
 
 .why_eke_label_text {
     /* brings text down */
-    margin-top: 10vh;
+    margin-top: 200px;
 }
 
 .why_eke_svg {
@@ -27,33 +27,32 @@
 
 .please_go_fuck_yourself_inspector {
     background-color: #2D2D2D;
-    height: 100%;
 }
 
 .row_excellence {
     margin-left: 75px;
     letter-spacing: 1px;
     margin-right: 120px;
-    padding-top: 11vh;
+    margin-top: 200px;
     font-family: "Libre Baskerville", serif;
 }
 
 .text_the_excellence_of_O_A_Level {
     color: wheat;
-    font-size: 80px;
+    font-size: 70px;
 }
 
 .excellence_subtitle {
-    padding-top: 5vh;
+    padding-top: 100px;
     color: wheat;
-    font-size: 48px;
+    font-size: 26px;
 }
 
 .excellence_explanation {
-    padding-top: 1vh;
-    line-height: 55px;
+    padding-top: 10px;
+    line-height: 45px;
     color: white;
-    font-size: 30px;
+    font-size: 12px;
     letter-spacing: 1px;
 }
 
