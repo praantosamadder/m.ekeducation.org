@@ -4,7 +4,6 @@
 }
 
 .courses_offered_label_right {
-    height: 100vh;
 }
 
 .courses_offered_text_section {
@@ -38,4 +37,64 @@
     font-size: 30px;
     letter-spacing: 1px;
     line-height: 55px;
+}
+
+.card_view_subject_list_container {
+    margin-top: 350px;
+}
+
+.cv_sl_template {
+    font-family: "Libre Baskerville", serif;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: #F0F0F0;
+}
+
+.cv_sl_subject_name {
+    color: #434343;
+    font-size: 45px;
+    padding-top: 50px;
+    padding-left: 40px;
+    font-family: "Libre Baskerville", serif;
+}
+
+.cv_sl_instructor_name {
+    padding-left: 40px;
+    color: #6B6B6B;
+    margin-top: 5px;
+    font-size: 26px;
+    font-family: "Libre Baskerville", serif;
+}
+
+.cv_sl_divider {
+    margin-top: 30px;
+    margin-bottom: 25px;
+    height: 2px;
+    background-color: #bababa;
+}
+
+.cv_sl_subs_cam {
+    padding-left: 40px;
+    letter-spacing: 0.5px;
+    font-size: 24px;
+    color: #979797;
+    margin-bottom: 12px;
+}
+
+.cv_sl_subs_cam_high_light {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.cv_sl_subs_edex {
+    letter-spacing: 0.5px;
+    padding-left: 40px;
+    padding-bottom: 60px;
+    font-size: 24px;
+    color: #979797;
+}
+
+.cv_sl_subs_edex_high_light {
+    font-weight: bold;
+    text-decoration: underline;
 }
