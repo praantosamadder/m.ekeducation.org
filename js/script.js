@@ -20,3 +20,6 @@ if (getDeviceType() !== "mobile") {
     console.log("Not running on a mobile device")
     // window.location.replace("")
 }
+
+alert("Platform" + navigator.platform)
+alert("AppCodeName" + navigator.appCodeName)
