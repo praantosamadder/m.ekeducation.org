@@ -3,7 +3,6 @@
 }
 
 .label_section {
-    background-color: #2D2D2D;
     display: grid;
     grid-template-columns: 150px 1fr;
 }
@@ -12,7 +11,6 @@
 }
 
 .why_eke_label_bg {
-    background-color: #2D2D2D;
 }
 
 .why_eke_label_text {

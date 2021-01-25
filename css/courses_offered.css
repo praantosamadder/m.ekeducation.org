@@ -1,0 +1,41 @@
+.label_section_courses_offered {
+    display: grid;
+    grid-template-columns: 1fr 150px;
+}
+
+.courses_offered_label_right {
+    height: 100vh;
+}
+
+.courses_offered_text_section {
+    margin-right: 55px;
+    margin-left: 75px;
+}
+
+.courses_offered_label_text {
+    float: right;
+    margin-top: 200px;
+}
+
+.line_courses_offered {
+    margin-top: 200px;
+    background-color: #D1A85B;
+    height: 10px;
+}
+
+.all_general_courses_offered_text {
+    padding-top: 60px;
+    color: #D1A85B;
+    font-size: 55px;
+    font-family: "Libre Baskerville", serif;
+    line-height: 70px;
+}
+
+.all_courses_sub_text {
+    margin-top: 30px;
+    font-family: "Libre Baskerville", serif;
+    color: #909090;
+    font-size: 30px;
+    letter-spacing: 1px;
+    line-height: 55px;
+}
