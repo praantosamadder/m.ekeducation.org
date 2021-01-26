@@ -2,7 +2,7 @@
     display: block;
 }
 
-.label_section {
+.wye_label_row {
     display: grid;
     grid-template-columns: 150px 1fr;
 }
@@ -13,7 +13,7 @@
 .why_eke_label_bg {
 }
 
-.why_eke_label_text {
+.wye_header_column {
     /* brings text down */
     margin-top: 200px;
 }
@@ -23,11 +23,11 @@
 }
 
 
-.please_go_fuck_yourself_inspector {
+.wye_exe_column {
     background-color: #2D2D2D;
 }
 
-.row_excellence {
+.wye-exe-text-container {
     margin-left: 75px;
     letter-spacing: 1px;
     margin-right: 120px;
@@ -35,18 +35,18 @@
     font-family: "Libre Baskerville", serif;
 }
 
-.text_the_excellence_of_O_A_Level {
+.wye-exe-title {
     color: wheat;
     font-size: 74px;
 }
 
-.excellence_subtitle {
+.wye-eke-subtitle {
     padding-top: 100px;
     color: wheat;
     font-size: 48px;
 }
 
-.excellence_explanation {
+.wye-exe-text {
     padding-top: 10px;
     line-height: 47px;
     color: white;
@@ -54,13 +54,13 @@
     letter-spacing: 1px;
 }
 
-.divider_line_row_container {
+.wye-exe-spacer {
     display: flex;
     justify-content: center;
     margin-top: 350px;
 }
 
-.divider_line {
+.wye-exe-divider-line {
     height: 3px;
     width: 300px;
     border-radius: 99px;
@@ -128,7 +128,7 @@
     width: 100%;
 }
 
-.why_eke_links {
+.wye-exe-links {
     margin-top: 60px;
     line-height: 40px;
     font-family: "Libre Baskerville", serif;
@@ -136,6 +136,6 @@
     color: white;
 }
 
-.why_eke_link_color {
+.why-eke-a-link-color {
     color: #fdefd5;
 }
