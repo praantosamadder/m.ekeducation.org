@@ -1,6 +1,6 @@
 .top_bar {
     display: grid;
-    grid-template-columns: 1fr 18vw;
+    grid-template-columns: 1fr 180px;
 }
 
 .logo_top_bar {
@@ -8,6 +8,6 @@
 }
 
 .menu_button {
-    background-color: #2D2D2D;
+    background-color: #b8b8b8;
     height: 100%;
 }
