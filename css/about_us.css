@@ -127,3 +127,15 @@
 .lalala{
     width: 100%;
 }
+
+.why_eke_links {
+    margin-top: 60px;
+    line-height: 40px;
+    font-family: "Libre Baskerville", serif;
+    font-size: 23px;
+    color: white;
+}
+
+.why_eke_link_color {
+    color: #fdefd5;
+}
