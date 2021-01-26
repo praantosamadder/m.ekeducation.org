@@ -61,24 +61,26 @@
 
 .cv_sl_instructor_name {
     padding-left: 40px;
-    color: #6B6B6B;
-    margin-top: 5px;
-    font-size: 27px;
+    color: #646464;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 28px;
     font-family: "Libre Baskerville", serif;
 }
 
 .cv_sl_divider {
     margin-top: 30px;
-    margin-bottom: 25px;
     height: 2px;
-    background-color: #bababa;
 }
 
 .cv_sl_subs_cam {
+    height: 20px;
+    background-color: #dedede;
     padding-left: 40px;
     padding-right: 40px;
     letter-spacing: 0.5px;
     font-size: 25px;
+    line-height: 40px;
     color: #979797;
     margin-bottom: 12px;
 }
@@ -99,4 +101,11 @@
 .cv_sl_subs_edex_high_light {
     font-weight: bold;
     text-decoration: underline;
+}
+
+.cv_sl_instructor_school {
+    letter-spacing: 0.3px;
+    margin-top: 10px;
+    color: #7e7e7e;
+    font-size: 24px;
 }
