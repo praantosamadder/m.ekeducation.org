@@ -1,0 +1,98 @@
+.admissions_right_side {
+    margin-top: 200px;
+    margin-left: 80px;
+    margin-right: 90px;
+}
+
+.accessible_to_all_text {
+    color: #D1A85B;
+    font-size: 56px;
+    font-family: "Libre Baskerville", serif;
+    line-height: 80px;
+}
+
+.admissions_education_color_contrast {
+    color: #969696;
+}
+
+.ekeducation_teaches_all_general {
+    margin-top: 30px;
+    font-family: "Libre Baskerville", serif;
+    color: #454545;
+    font-size: 32px;
+    letter-spacing: 1px;
+    line-height: 55px;
+}
+
+.admissions_charge_label {
+    color: black;
+    text-align: center;
+    font-size: 55px;
+    padding-left: 120px;
+    line-height: 75px;
+    padding-right: 120px;
+    font-family: "Libre Baskerville", serif;
+    margin-top: 50px;
+}
+
+.admissions_divider_container {
+    display: flex;
+    justify-content: center;
+}
+
+.admissions_divider {
+    margin-top: 200px;
+    background-color: #8D8D8D;
+    height: 7px;
+    width: 35%;
+}
+
+.fees_template_container {
+    margin-top: 60px;
+}
+
+.fees_template {
+}
+
+.cv_ad_template {
+    font-family: "Libre Baskerville", serif;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: #f8f8f8;
+}
+
+.cv_ad_fees_label {
+    color: #434343;
+    font-size: 35px;
+    letter-spacing: 1.3px;
+    padding-top: 50px;
+    padding-left: 70px;
+    padding-right: 70px;
+    font-family: "Libre Baskerville", serif;
+}
+
+.cv_ad_fees_cost {
+    padding-left: 70px;
+    padding-right: 70px;
+    color: #6B6B6B;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 26px;
+    font-family: "Libre Baskerville", serif;
+}
+
+.card_view_fees_list_container {
+    margin-bottom: 40px;
+}
+
+.cv_ad_bottom_virtual_margin {
+    height: 20px;
+    background-color: #F5F5F5;
+    padding-left: 40px;
+    padding-right: 40px;
+    letter-spacing: 0.5px;
+    font-size: 25px;
+    line-height: 40px;
+    color: #979797;
+    margin-bottom: 12px;
+}

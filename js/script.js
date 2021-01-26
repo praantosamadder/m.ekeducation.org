@@ -21,6 +21,6 @@ if (getDeviceType() !== "mobile") {
     // window.location.replace("")
 }
 
-alert("100vw")
+// alert("100vw")
 // alert("AppCodeName" + navigator.appCodeName)
 
