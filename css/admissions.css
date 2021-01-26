@@ -63,7 +63,7 @@
 
 .cv_ad_fees_label {
     color: #434343;
-    font-size: 38px;
+    font-size: 35px;
     letter-spacing: 1.3px;
     padding-top: 50px;
     padding-left: 70px;
@@ -106,16 +106,16 @@
     line-height: 75px;
     padding-right: 120px;
     font-family: "Libre Baskerville", serif;
-    margin-top: 50px;
+    margin-top: 150px;
 }
 
 .location_address_eke {
     margin: 20px 25px 200px;
-    line-height: 60px;
+    line-height: 55px;
     color: #707070;
     text-align: center;
     font-family: "Libre Baskerville", serif;
-    font-size: 30px;
+    font-size: 26px;
 }
 
 .email_link {
