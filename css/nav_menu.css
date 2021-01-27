@@ -2,5 +2,45 @@
     width: 100%;
     height: 100vh;
     display: none;
-    background-color: greenyellow;
+    background-color: #fff5e0;
+}
+
+.nav-menu-links-container {
+    width: 100%;
+    height: 40%;
+}
+
+.nav-menu-footer-container {
+
+}
+
+.nav-menu-links-col {
+    background-color: #EEEEEE;
+}
+
+.nav-menu-clickable-link-container {
+    font-family: "Libre Baskerville", serif;
+    font-size: 40px;
+    padding: 50px 100px;
+    color: #68645d;
+    /*border-top: solid 1px black;*/
+    border-bottom: solid 1px #cecece;
+}
+
+
+.nav-menu-link-template {
+    cursor: pointer;
+    /*background-color: #D1A85B;*/
+}
+
+.nav-menu-link-template:hover {
+    text-decoration: underline;
+    text-underline-color: #D1A85B;
+}
+
+.nav-menu-link-color {
+    color: #c8b695;
+}
+
+.nav-menu-links-right-col {
 }
