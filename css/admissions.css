@@ -127,7 +127,7 @@
 }
 
 .ad-form-download-link-container {
-    margin-top: 130px;
+    margin-top: 50px;
     display: flex;
     font-family: "Libre Baskerville", serif;
     justify-content: center;
@@ -136,7 +136,26 @@
 
 .ad-form-download-link {
     line-height: 47px;
-    color: black;
-    font-size: 34px;
+    color: #7a7a7a;
+    font-size: 32px;
     letter-spacing: 1px;
+}
+
+.ad-registration-requirements-container {
+    padding-left: 54px;
+    padding-right: 40px;
+    margin-top: 100px;
+}
+
+.ad-registration-requirements {
+    background-color: #E6E6E6;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-family: "Libre Baskerville", serif;
+    color: black;
+    font-weight: bold;
+    font-size: 35px;
+    letter-spacing: 1px;
+    line-height: 55px;
 }
