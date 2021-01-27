@@ -21,6 +21,6 @@ if (getDeviceType() !== "mobile") {
     // window.location.replace("")
 }
 
-// alert("100vw")
+alert("Issue with Safari on iOS")
 // alert("AppCodeName" + navigator.appCodeName)
 
