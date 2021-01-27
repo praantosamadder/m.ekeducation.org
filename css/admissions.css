@@ -98,7 +98,6 @@
 }
 
 .location_label {
-    /*color: #b59756;*/
     color: #D1A85B;
     text-align: center;
     font-size: 55px;
@@ -106,16 +105,21 @@
     line-height: 75px;
     padding-right: 120px;
     font-family: "Libre Baskerville", serif;
-    margin-top: 200px;
+
+    /* Adjust to bring Location heading text up */
+    margin-top: 150px;
 }
 
 .location_address_eke {
-    margin: 10px 25px 200px;
+    margin: 10px 25px 0;
     line-height: 45px;
     color: #707070;
     text-align: center;
     font-family: "Libre Baskerville", serif;
-    font-size: 23px;
+    font-size: 20px;
+
+    /* Adjust to move address text up or down */
+    padding-bottom: 200px;
 }
 
 .email_link {

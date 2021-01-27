@@ -10,4 +10,5 @@
 .nav-bar-menu-button-container {
     background-color: #b8b8b8;
     height: 100%;
+    cursor: pointer;
 }

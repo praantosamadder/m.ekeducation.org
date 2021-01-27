@@ -2,8 +2,13 @@
     position: sticky;
     top: 0;
     height: 120px;
+    max-height: 10vh;
     background-color: white;
     box-shadow: 0 30px 10px -30px rgba(0, 0, 0, 0.25);
+}
+
+.set_display_to_none_when_nav_menu_visible {
+    display: initial;
 }
 
 .intro_card {
@@ -19,4 +24,23 @@
 
 .admissions {
     background-color: #EEEEEE;
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
 }
