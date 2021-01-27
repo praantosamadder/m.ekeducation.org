@@ -30,5 +30,5 @@ function showNavMenu() {
 
 function onClick_NavMenuItem(linkId) {
     hideNavMenu()
-    document.getElementById("nav-menu-link-courses").click()
+    document.getElementById(linkId).click()
 }
