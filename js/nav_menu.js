@@ -14,7 +14,7 @@ hamburgerButton.onclick = () => {
     }
 }
 
-showNavMenu()
+// showNavMenu()
 
 function hideNavMenu() {
     navMenu.style.display = "none"
