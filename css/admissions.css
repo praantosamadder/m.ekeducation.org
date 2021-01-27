@@ -125,3 +125,18 @@
 .location_address_lighter_shade {
     color: #999999;
 }
+
+.ad-form-download-link-container {
+    margin-top: 130px;
+    display: flex;
+    font-family: "Libre Baskerville", serif;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.ad-form-download-link {
+    line-height: 47px;
+    color: black;
+    font-size: 34px;
+    letter-spacing: 1px;
+}

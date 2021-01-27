@@ -1,13 +1,13 @@
-.top_bar {
+.nav-bar {
     display: grid;
     grid-template-columns: 1fr 180px;
 }
 
-.logo_top_bar {
+.nav-bar-logo {
 
 }
 
-.menu_button {
+.nav-bar-menu-button-container {
     background-color: #b8b8b8;
     height: 100%;
 }
