@@ -12,6 +12,16 @@
 
 .nav-menu-footer-container {
     height: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 60px;
+    font-family: "Libre Baskerville", serif;
+    font-size: 35px;
+    color: #d9aa56;
+}
+
+.nav-menu-footer-education-color-change {
+    color: #8d8d8d;
 }
 
 .nav-menu-links-col {
