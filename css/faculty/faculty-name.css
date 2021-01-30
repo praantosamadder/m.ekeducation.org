@@ -10,8 +10,10 @@
 }
 
 .white-template-container {
+    background-color: #EEEEEE;
     display: grid;
     grid-template-columns: 0 1fr;
+    padding-bottom: 30px;
 }
 
 .white-left-col {
@@ -37,7 +39,7 @@
 .float-right {
     float: right;
     margin-right: 50px;
-    margin-left: 60px;
+    margin-left: 30px;
     text-align: right;
 }
 
