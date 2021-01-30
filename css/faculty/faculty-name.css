@@ -1,151 +1,89 @@
+* {
+    font-family: "Libre Baskerville", serif;
+    font-size: 33px;
 
-.f-row-container {
-    background-color: #EEEEEE;
+}
+
+/* WHITE BACKGROUND */
+.teacher-template-white {
+
+}
+
+.white-template-container {
     display: grid;
     grid-template-columns: 150px 1fr;
 }
 
-.why_eke_label_fraction {
+.white-left-col {
+    margin-top: 230px;
 }
 
-.why_eke_label_bg {
+.teacher-page-mathematics-header-img {
+    position: relative;
+    bottom: 0;
+    left: 0;
 }
 
-.f-sub-name-col {
-    /* brings text down */
+.white-right-col {
     margin-top: 200px;
+    float: right;
 }
 
-.f-sub-name-img {
-    pointer-events: none;
+.teacher-face-img {
+    border-radius: 4000px;
+    float: right;
 }
 
-
-.f-teacher-desc-col {
-    background-color: #EEEEEE;
-    horiz-align: right;
+.float-right {
+    float: right;
+    margin-right: 150px;
+    margin-left: 60px;
+    text-align: right;
 }
 
-.f-teacher-desc-container {
-    margin-left: 75px;
-    letter-spacing: 1px;
-    margin-right: 120px;
-    margin-top: 200px;
-    font-family: "Libre Baskerville", serif;
+.teacher-text {
+    float: right;
+    margin-top: 30px;
+    padding-left: 30px;
 }
 
-.wye-exe-title {
-    color: wheat;
-    font-size: 74px;
+.elias-sir {
+    font-size: 1.5rem;
+    color: #D1A85B;
+    -webkit-text-stroke: 0.01rem #D1A85B;
 }
 
-.wye-eke-subtitle {
-    padding-top: 100px;
-    color: wheat;
-    font-size: 48px;
-}
-
-.wye-exe-text {
+.senior-mathematics-teacher {
     padding-top: 10px;
-    line-height: 47px;
-    color: white;
-    font-size: 33px;
-    letter-spacing: 1px;
+    font-size: 0.70rem;
+    color: #4a4a4a;
 }
 
-.wye-exe-spacer {
-    display: flex;
-    justify-content: center;
-    margin-top: 350px;
-}
+.oxford-international-school {
+    font-size: 0.75rem;
+    -webkit-text-stroke: 0.027rem #4a4a4a;
 
-.wye-exe-divider-line {
-    height: 3px;
-    width: 300px;
-    border-radius: 99px;
-    background-color: #F5DEB3;
-}
-
-
-/*What you see*/
-.wye-what-you-get-title {
-    color: wheat;
-    text-align: center;
-    font-size: 55px;
-    font-family: "Libre Baskerville", serif;
-    margin-top: 80px;
-}
-
-.wye-what-you-get-subtitle {
-    margin: 20px 35px 200px;
-    line-height: 45px;
-    color: white;
-    text-align: center;
-    font-family: "Libre Baskerville", serif;
-    font-size: 30px;
-}
-
-.card_view_why_eke {
-    margin-top: 100px;
-    font-family: "Libre Baskerville", serif;
-}
-
-.cv-wye-image {
-    margin-left: auto;
-    margin-right: auto;
-    width: 890px;
-    background-color: #EEEEEE;
-    height: 450px;
 
 }
 
-/* The header under the card view image */
-.cv-wye-sub-header {
-    margin-top: 25px;
-    color: wheat;
-    margin-left: 45px;
-    margin-right: 40px;
-    font-size: 30px;
-    font-weight: bold;
+.writer-unique-solutions {
+    font-size: 0.75rem;
+    padding-top: 10px;
+    color: #8a8a8a;
 }
 
-.cv-wye-desc {
-    margin-left: 45px;
-    margin-right: 45px;
-    color: #FFF6E6;
-    font-size: 22px;
-    line-height: 35px;
+.instructor-for-text {
+    display: none;
     margin-top: 10px;
+    font-size: 0.65rem;
 }
 
-/* Extra bottom margin for "Technology and Education combined" card */
-.cv-wye-last_card-margin {
-    padding-bottom: 100px;
-
+.mathematics-d-additional-mathematics {
+    color: #4f4f4f;
+    margin-top: 10px;
+    font-size: 0.78rem;
 }
 
+/* GOLD BACKGROUND */
 
-.lalala{
-    width: 100%;
-}
-
-/* Contains "Courses Offered" and "Admissions" section scroll links */
-.wye-exe-links {
-    margin-top: 60px;
-    line-height: 40px;
-    font-family: "Libre Baskerville", serif;
-    font-size: 27px;
-    color: white;
-}
-
-/* Changes color of "Scroll to Courses Offered" link */
-.why-eke-a-link-color {
-    color: #fdefd5;
-}
-
-.f-teacher-img {
-    border-radius: 999px;
-    background-color: white;
-    height: 400px;
-    width: 400px;
-}
+/* DARK BACKGROUND */
