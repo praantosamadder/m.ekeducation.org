@@ -10,6 +10,9 @@
 .nav-bar-menu-button-container {
     height: 100%;
     cursor: pointer;
-    display: flex;
-    justify-content: center;
+    vertical-align: center;
+    horiz-align: center;
+    background-color: transparent;
+    border: none;
+    outline: none;
 }
