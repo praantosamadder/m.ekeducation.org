@@ -1,6 +1,6 @@
 * {
     font-family: "Libre Baskerville", serif;
-    font-size: 33px;
+    font-size: 18px;
 
 }
 
@@ -11,11 +11,11 @@
 
 .white-template-container {
     display: grid;
-    grid-template-columns: 150px 1fr;
+    grid-template-columns: 0 1fr;
 }
 
 .white-left-col {
-    margin-top: 230px;
+    margin-top: 140px;
 }
 
 .teacher-page-mathematics-header-img {
@@ -25,7 +25,7 @@
 }
 
 .white-right-col {
-    margin-top: 200px;
+    margin-top: 100px;
     float: right;
 }
 
@@ -36,15 +36,16 @@
 
 .float-right {
     float: right;
-    margin-right: 150px;
+    margin-right: 50px;
     margin-left: 60px;
     text-align: right;
 }
 
 .teacher-text {
     float: right;
-    margin-top: 30px;
+    margin-top: 15px;
     padding-left: 30px;
+    padding-right: 10px;
 }
 
 .elias-sir {
@@ -54,7 +55,7 @@
 }
 
 .senior-mathematics-teacher {
-    padding-top: 10px;
+    padding-top: 5px;
     font-size: 0.70rem;
     color: #4a4a4a;
 }
@@ -68,19 +69,19 @@
 
 .writer-unique-solutions {
     font-size: 0.75rem;
-    padding-top: 10px;
+    padding-top: 5px;
     color: #8a8a8a;
 }
 
 .instructor-for-text {
     display: none;
-    margin-top: 10px;
+    margin-top: 5px;
     font-size: 0.65rem;
 }
 
 .mathematics-d-additional-mathematics {
     color: #4f4f4f;
-    margin-top: 10px;
+    margin-top: 5px;
     font-size: 0.78rem;
 }
 
