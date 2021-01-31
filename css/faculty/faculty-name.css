@@ -175,7 +175,28 @@
     color: #dedede;
 }
 
-
+/* Subject specific */
 .kartic-sir-oxford-international {
     padding-top: 0;
+}
+
+.physics-teacher-template {
+    margin-bottom: 50px;
+}
+
+.accounting-header-col {
+    margin-top: 50px;
+}
+
+.biology-template-container {
+    padding-top: 10px;
+    padding-bottom: 70px;
+}
+
+.islam-sir-header-col {
+    margin-top: 50px;
+}
+
+.islam-content-col {
+    margin-top: 50px;
 }
