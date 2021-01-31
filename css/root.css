@@ -30,3 +30,7 @@ body {
 .match_parent_width {
     width: 100%;
 }
+
+img {
+    pointer-events: none;
+}

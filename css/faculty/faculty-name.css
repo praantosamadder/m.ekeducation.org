@@ -4,19 +4,23 @@
 
 }
 
-/* WHITE BACKGROUND */
-.teacher-template-white {
+/* GOLD BACKGROUND */
+.gold-teacher-template {
 
 }
 
-.white-template-container {
+.gold-template-container {
     background-color: #EEEEEE;
     display: grid;
     grid-template-columns: 65px 1fr;
     padding-bottom: 30px;
 }
 
-.white-left-col {
+.ccc {
+    grid-template-columns: 1fr 65px;
+}
+
+.gold-header-col {
     margin-top: 140px;
 }
 
@@ -26,7 +30,7 @@
     left: 0;
 }
 
-.white-right-col {
+.gold-content-col {
     margin-top: 100px;
     float: right;
 }
@@ -44,7 +48,7 @@
     text-align: right;
 }
 
-.teacher-text {
+.gold-teacher-text {
     float: right;
     margin-top: 15px;
     padding-right: 10px;
@@ -91,6 +95,48 @@
     font-size: 0.7rem;
 }
 
-/* GOLD BACKGROUND */
+/* WHITE BACKGROUND */
+.white-template-container {
+    grid-template-columns: 1fr 65px;
+    background-color: white;
+}
 
-/* DARK BACKGROUND */
+.white-content-col {
+    float: left;
+}
+
+.float-left {
+    float: left;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+.english-instructor-for {
+    display: inherit;
+    font-size: 0.55rem;
+    color: #606060;
+}
+
+.english-language-subjects-offered {
+    margin-top: 0;
+    margin-right: 40px;
+    padding-left: 0;
+}
+
+.white-teacher-text {
+    text-align: left;
+    float: left;
+}
+
+.white-elias-sir {
+    padding-left: 0;
+}
+
+.white-senior-mathematics {
+    padding-left: 0;
+}
+
+.white-writer-unique-solutions {
+    padding-left: 0;
+}
+/* BLACK BACKGROUND */
