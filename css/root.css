@@ -34,3 +34,7 @@ body {
 img {
     pointer-events: none;
 }
+
+.no-display {
+    display: none;
+}
