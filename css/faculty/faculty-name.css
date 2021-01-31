@@ -95,6 +95,11 @@
     font-size: 0.7rem;
 }
 
+.elias-sir-math-d-add-math {
+    margin-top: 0;
+}
+
+
 /* WHITE BACKGROUND */
 .white-template-container {
     grid-template-columns: 1fr 65px;
