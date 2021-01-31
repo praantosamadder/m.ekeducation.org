@@ -1,6 +1,6 @@
 .nav-bar {
     display: grid;
-    grid-template-columns: 1fr 180px;
+    grid-template-columns: 140px 1fr;
 }
 
 .nav-bar-logo {
