@@ -114,7 +114,7 @@
 .english-instructor-for {
     display: inherit;
     font-size: 0.55rem;
-    color: #606060;
+    color: #ae842c;
 }
 
 .english-instructor-for-first-div {
@@ -143,4 +143,29 @@
 .white-writer-unique-solutions {
     padding-left: 0;
 }
+
 /* BLACK BACKGROUND */
+
+.black-template-container {
+    background-color: #2D2D2D;
+}
+
+.black-elias-sir {
+    color: wheat;
+}
+
+.black-mathematics-teacher {
+    color: #d3d3d3;
+}
+
+.black-oxford-international-school {
+    -webkit-text-stroke: 0.01rem #d3d3d3;
+}
+
+.black-unique-solutions {
+    color: #b2b2b2;
+}
+
+.black-bengali {
+    color: #dedede;
+}
