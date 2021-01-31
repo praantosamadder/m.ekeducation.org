@@ -200,3 +200,38 @@
 .islam-content-col {
     margin-top: 50px;
 }
+
+.f-nav-bar {
+}
+
+.nav-bar-faculty {
+    grid-template-columns: 70px 1fr;
+    height: 60px;
+}
+
+.meet-dem-teachers {
+    text-align: center;
+    font-size: 23px;
+}
+
+.meet-dem-subtitle {
+    text-align: center;
+    font-size: 13px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 7px;
+}
+
+.faculty-info {
+    background-color: wheat;
+}
+
+.faculty-info-text {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.mathematics-header-col,
+.mathematics-content-col {
+    margin-top: 70px;
+}
