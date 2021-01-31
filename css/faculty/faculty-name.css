@@ -12,7 +12,7 @@
 .white-template-container {
     background-color: #EEEEEE;
     display: grid;
-    grid-template-columns: 0 1fr;
+    grid-template-columns: 65px 1fr;
     padding-bottom: 30px;
 }
 
