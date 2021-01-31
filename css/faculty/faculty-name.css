@@ -46,19 +46,20 @@
 .teacher-text {
     float: right;
     margin-top: 15px;
-    padding-left: 30px;
     padding-right: 10px;
 }
 
 .elias-sir {
     font-size: 1.5rem;
     color: #D1A85B;
+    padding-left: 30px;
     -webkit-text-stroke: 0.01rem #D1A85B;
 }
 
 .senior-mathematics-teacher {
     padding-top: 5px;
     font-size: 0.60rem;
+    padding-left: 30px;
     color: #4a4a4a;
 }
 
@@ -72,6 +73,7 @@
 .writer-unique-solutions {
     font-size: 0.65rem;
     padding-top: 5px;
+    padding-left: 30px;
     color: #8a8a8a;
 }
 
@@ -83,6 +85,7 @@
 
 .mathematics-d-additional-mathematics {
     color: #4f4f4f;
+    padding-left: 10px;
     margin-top: 5px;
     font-size: 0.7rem;
 }
