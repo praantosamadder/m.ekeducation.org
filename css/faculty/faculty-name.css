@@ -268,13 +268,3 @@
 .right-side-label-curriculum-logo {
     grid-template-columns: 1fr 1fr;
 }
-
-.accounting-cam-logo-img, .accounting-edex-logo-img {
-    height: 20px;
-    margin-top: 30px;
-}
-
-.english-cam-logo-img, .english-edex-logo-img {
-    height: 20px;
-    margin-top: 10px;
-}
