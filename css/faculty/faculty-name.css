@@ -23,6 +23,8 @@
 
 .cambridge-logo-img, .edexcel-logo-img {
     height: 26px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 /* GOLD BACKGROUND */
@@ -264,7 +266,7 @@
 }
 
 .right-side-label-curriculum-logo {
-    grid-template-columns: 1fr 1fr 35px;
+    grid-template-columns: 1fr 1fr;
 }
 
 .accounting-cam-logo-img, .accounting-edex-logo-img {
