@@ -15,6 +15,14 @@
     grid-template-columns: 180px 180px 1fr;
 }
 
+.w1-board-logo-container-mod {
+    background-color: white;
+    grid-template-columns: 180px 180px;
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 10px;
+}
+
 .g0-logo-dummy-col {
 
 }
