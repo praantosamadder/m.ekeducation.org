@@ -6,6 +6,13 @@
     background-color: #EEEEEE;
     display: grid;
     grid-template-columns: 1fr 180px 180px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.w0-board-logo-container-mod {
+    background-color: white;
+    grid-template-columns: 180px 180px 1fr;
 }
 
 .g0-logo-dummy-col {

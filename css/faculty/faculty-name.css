@@ -101,7 +101,11 @@
 
 
 /* WHITE BACKGROUND */
-.white-template-container {
+.w0 {
+    background-color: white;
+}
+
+.w0-template-container {
     grid-template-columns: 1fr 65px;
     background-color: white;
 }
