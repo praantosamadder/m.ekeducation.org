@@ -1,0 +1,54 @@
+/* MATHEMATICS */
+
+/* Grid with three columns */
+.g0-board-logo-container {
+    padding-top: 30px;
+    background-color: #EEEEEE;
+    display: grid;
+    grid-template-columns: 1fr 180px 180px;
+}
+
+.g0-logo-dummy-col {
+
+}
+
+.g0-bl-cam-col {
+
+}
+
+.g0-cam-img, .g0-bl-ed-img {
+    width: 160px;
+    /*padding-left: 10px;*/
+    /*padding-right: 10px;*/
+}
+
+.g0-bl-ed-col {
+
+}
+
+/* ENGLISH LANGUAGE */
+
+/* Grid with two columns */
+.curriculum-logo-bottom-container {
+
+}
+
+.cambridge-logo-bottom-col {
+
+}
+
+.edexcel-logo-bottom-col {
+
+}
+
+/* BENGALI */
+
+/* PHYSICS */
+
+/* CHEMISTRY */
+
+/* ACCOUNTING & BUSINESS */
+
+/* BIOLOGY */
+
+/* COMPUTER SCIENCE */

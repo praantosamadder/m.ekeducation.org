@@ -4,35 +4,12 @@
 
 }
 
-/* CURRICULUM LOGO SECTION */
-.curriculum-logo-container {
-    display: grid;
-    grid-template-columns: 35px 1fr 1fr;
-    height: 30px;
-}
-
-.cambridge-logo-col, .edexcel-logo-col {
-    margin-top: 30px;
-    display: flex;
-    justify-content: center;
-}
-
-.edexcel-logo-col {
-    margin-right: 20px;
-}
-
-.cambridge-logo-img, .edexcel-logo-img {
-    height: 26px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
 /* GOLD BACKGROUND */
-.gold-teacher-template {
+.g0 {
     background-color: #EEEEEE;
 }
 
-.gold-template-container {
+.g0-container {
     background-color: #EEEEEE;
     display: grid;
     grid-template-columns: 65px 1fr;
@@ -43,11 +20,11 @@
     grid-template-columns: 1fr 65px;
 }
 
-.gold-header-col {
+.g0-header-col {
     margin-top: 70px;
 }
 
-.teacher-page-mathematics-header-img {
+.fl-gold-math-header-img {
     position: relative;
     bottom: 0;
     left: 0;
