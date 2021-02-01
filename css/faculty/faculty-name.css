@@ -4,9 +4,30 @@
 
 }
 
+/* CURRICULUM LOGO SECTION */
+.curriculum-logo-container {
+    display: grid;
+    grid-template-columns: 35px 1fr 1fr;
+    height: 30px;
+}
+
+.cambridge-logo-col, .edexcel-logo-col {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.edexcel-logo-col {
+    margin-right: 20px;
+}
+
+.cambridge-logo-img, .edexcel-logo-img {
+    height: 26px;
+}
+
 /* GOLD BACKGROUND */
 .gold-teacher-template {
-
+    background-color: #EEEEEE;
 }
 
 .gold-template-container {
@@ -21,7 +42,7 @@
 }
 
 .gold-header-col {
-    margin-top: 140px;
+    margin-top: 70px;
 }
 
 .teacher-page-mathematics-header-img {
@@ -31,7 +52,7 @@
 }
 
 .gold-content-col {
-    margin-top: 100px;
+    margin-top: 70px;
     float: right;
 }
 
@@ -182,6 +203,7 @@
 
 .physics-teacher-template {
     margin-bottom: 50px;
+    background-color: white;
 }
 
 .accounting-header-col {
@@ -233,7 +255,19 @@
     padding-bottom: 70px;
 }
 
-.mathematics-header-col,
 .mathematics-content-col {
+    margin-top: 50px;
+}
+
+.mathematics-header-col {
     margin-top: 70px;
+}
+
+.right-side-label-curriculum-logo {
+    grid-template-columns: 1fr 1fr 35px;
+}
+
+.accounting-cam-logo-img, .accounting-edex-logo-img {
+    height: 24px;
+    margin-top: 30px;
 }
