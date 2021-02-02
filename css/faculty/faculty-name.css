@@ -13,7 +13,7 @@
     background-color: #EEEEEE;
     display: grid;
     grid-template-columns: 65px 1fr;
-    padding-bottom: 30px;
+    padding-bottom: 60px;
 }
 
 .ccc {
@@ -248,4 +248,23 @@
 
 .right-side-label-curriculum-logo {
     grid-template-columns: 1fr 1fr;
+}
+
+.contact-number-light-con {
+    margin-top: 10px;
+    font-size: 0.7rem;
+    color: #606060;
+}
+
+.contact-number-light {
+    font-size: 0.70rem;
+    color: #8a8a8a;
+}
+
+.contact-number-dark-con {
+
+}
+
+.contact-number-dark {
+
 }
