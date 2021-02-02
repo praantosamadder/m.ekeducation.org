@@ -31,7 +31,8 @@ function showNavMenu() {
     hamburgerIcon.src = "./img/icons/x.svg"
 }
 
-function onClick_NavMenuItem(linkId) {
+function
+onClick_NavMenuItem(linkId) {
     hideNavMenu()
     document.getElementById(linkId).click()
 }

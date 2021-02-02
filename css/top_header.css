@@ -8,6 +8,7 @@
 }
 
 .nav-bar-menu-button-container {
+    display: inline;
     height: 100%;
     cursor: pointer;
     vertical-align: center;
