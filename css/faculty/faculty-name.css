@@ -246,6 +246,19 @@
     margin-top: 70px;
 }
 
+.phy-lab-available {
+    margin-top: 10px;
+    color: #2D2D2D;
+}
+
+.chem-lab-available {
+    margin-top: 0;
+}
+
+.bio-lab-avail {
+    font-size: 0.7rem;
+}
+
 .right-side-label-curriculum-logo {
     grid-template-columns: 1fr 1fr;
 }
