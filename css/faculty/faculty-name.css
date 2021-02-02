@@ -210,7 +210,7 @@
 }
 
 .nav-bar-faculty {
-    grid-template-columns: 70px 1fr;
+    grid-template-columns: 90px 1fr;
     height: 60px;
 }
 
