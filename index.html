@@ -1,9 +1,16 @@
 <!DOCTYPE html>
-<!--suppress CheckImageSize -->
+<!--suppress CheckImageSize, HtmlRequiredAltAttribute -->
 
-<!--<git commit -message="
-Removed logos
-"/>-->
+<!--
+@author Praanto Samadder
+praanto.samadder07@gmail.com
+DHAKA, BGD
+
+Fonts from Google Fonts
+
+Hamburger image downloaded from icons8
+-->
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -17,10 +24,12 @@ Removed logos
     <!-- Favicon -->
     <link href="./img/icons/fav-alt.png" rel="shortcut icon" type="image/png">
 
-
-    <!-- JavaScript Dependencies -->
-    <script src="./dependencies/js/palette.js"></script>
-    <script src="./dependencies/js/redirect.js"></script>
+    <!-- Facebook Open Graph API -->
+    <meta property="og:url"                content="http://www.nytimes.com/2015/02/19/arts/international/when-great-minds-dont-think-alike.html" />
+    <meta property="og:type"               content="Educaton" />
+    <meta property="og:title"              content="EkEducation | The excellence of O/A Level" />
+    <meta property="og:description"        content="The best teachers gathered to create the best learning experience" />
+    <meta property="og:image"              content="https://m.ekeducation.org/img/faculty_img/mathematics_teacher_img.jpg" />
 
     <!-- CSS Style Links -->
     <link href="./css/root.css" rel="stylesheet">
@@ -35,7 +44,11 @@ Removed logos
 
     <!-- Top Bar: Fixed -->
     <div class="nav-bar full_width">
+
+        <!-- Hamburger Button -->
         <button class="nav-bar-menu-button-container" id="nav-hamburger-container">
+
+            <!-- Hamburger Icon Image -->
             <img class="hamburger-icon" id="hamburger-icon" src="./img/icons/menu_hamburger.svg">
         </button>
         <div class="nav-bar-logo"></div>
@@ -43,7 +56,7 @@ Removed logos
 
     <div class="nav-menu" id="nav-menu">
         <!-- Contains links to the sections in the web site -->
-        <div class="nav-menu-links-container">
+        <div class="nav-menu__links-container">
             <div class="nav-menu-link-template">
                 <div class="nav-menu-clickable-link-container nav-menu-clickable-link-container-first">
 
