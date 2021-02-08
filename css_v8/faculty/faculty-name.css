@@ -1,0 +1,287 @@
+* {
+    font-family: "Libre Baskerville", serif;
+    font-size: 18px;
+
+}
+
+/* GOLD BACKGROUND */
+.g0 {
+    background-color: #EEEEEE;
+}
+
+.g0-container {
+    background-color: #EEEEEE;
+    display: grid;
+    grid-template-columns: 65px 1fr;
+    padding-bottom: 60px;
+}
+
+.ccc {
+    grid-template-columns: 1fr 65px;
+}
+
+.g0-header-col {
+    margin-top: 70px;
+}
+
+.fl-gold-math-header-img {
+    position: relative;
+    bottom: 0;
+    left: 0;
+}
+
+.gold-content-col {
+    margin-top: 70px;
+    float: right;
+}
+
+.teacher-face-img {
+    border-radius: 4000px;
+    float: right;
+    margin-right: 20px;
+}
+
+.float-right {
+    float: right;
+    margin-right: 30px;
+    margin-left: 20px;
+    text-align: right;
+}
+
+.gold-teacher-text {
+    float: right;
+    margin-top: 15px;
+    padding-right: 10px;
+}
+
+.elias-sir {
+    font-size: 1.5rem;
+    color: #D1A85B;
+    padding-left: 30px;
+    -webkit-text-stroke: 0.01rem #D1A85B;
+}
+
+.senior-mathematics-teacher {
+    padding-top: 5px;
+    font-size: 0.60rem;
+    padding-left: 30px;
+    color: #4a4a4a;
+}
+
+.oxford-international-school {
+    font-size: 0.65rem;
+    -webkit-text-stroke: 0.027rem #4a4a4a;
+
+
+}
+
+.writer-unique-solutions {
+    font-size: 0.65rem;
+    padding-top: 5px;
+    padding-left: 30px;
+    color: #8a8a8a;
+}
+
+.instructor-for-text {
+    display: none;
+    margin-top: 5px;
+    font-size: 0.65rem;
+}
+
+.mathematics-d-additional-mathematics {
+    color: #4f4f4f;
+    padding-left: 10px;
+    margin-top: 5px;
+    font-size: 0.7rem;
+}
+
+.elias-sir-math-d-add-math {
+    margin-top: 0;
+}
+
+
+/* WHITE BACKGROUND */
+.w0 {
+    background-color: white;
+}
+
+.w0-template-container {
+    grid-template-columns: 1fr 65px;
+    background-color: white;
+}
+
+.white-content-col {
+    float: left;
+}
+
+.float-left {
+    float: left;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+.english-instructor-for {
+    display: inherit;
+    font-size: 0.55rem;
+    color: #ae842c;
+}
+
+.english-instructor-for-first-div {
+    margin-top: 15px;
+}
+
+.english-language-subjects-offered {
+    margin-top: 0;
+    margin-right: 40px;
+    padding-left: 0;
+}
+
+.white-teacher-text {
+    text-align: left;
+    float: left;
+}
+
+.white-elias-sir {
+    padding-left: 0;
+}
+
+.white-senior-mathematics {
+    padding-left: 0;
+}
+
+.white-writer-unique-solutions {
+    padding-left: 0;
+}
+
+/* BLACK BACKGROUND */
+
+.black-template-container {
+    background-color: #2D2D2D;
+}
+
+.black-elias-sir {
+    color: wheat;
+}
+
+.black-mathematics-teacher {
+    color: #d3d3d3;
+}
+
+.black-oxford-international-school {
+    -webkit-text-stroke: 0.01rem #d3d3d3;
+}
+
+.black-unique-solutions {
+    color: #b2b2b2;
+}
+
+.black-bengali {
+    color: #dedede;
+}
+
+/* Subject specific */
+.kartic-sir-oxford-international {
+    padding-top: 0;
+}
+
+.physics-teacher-template {
+    margin-bottom: 50px;
+    background-color: white;
+}
+
+.accounting-header-col {
+    margin-top: 50px;
+}
+
+.biology-template-container {
+    padding-top: 10px;
+    padding-bottom: 70px;
+}
+
+.islam-sir-header-col {
+    margin-top: 50px;
+}
+
+.islam-content-col {
+    margin-top: 50px;
+}
+
+.f-nav-bar {
+}
+
+.nav-bar-faculty {
+    grid-template-columns: 90px 1fr;
+    height: 60px;
+}
+
+.meet-dem-teachers {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.meet-dem-subtitle {
+    text-align: center;
+    font-size: 13px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 7px;
+}
+
+.faculty-info {
+    background-color: #f5d790;
+}
+
+.faculty-info-text {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.mathematics-content-col {
+    margin-top: 50px;
+}
+
+.mathematics-header-col {
+    margin-top: 70px;
+}
+
+.phy-lab-available {
+    margin-top: 10px;
+    color: #2D2D2D;
+}
+
+.chem-lab-available {
+    margin-top: 0;
+}
+
+.bio-lab-avail {
+    font-size: 0.7rem;
+}
+
+.right-side-label-curriculum-logo {
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact-number-light-con {
+    margin-top: 10px;
+    font-size: 0.7rem;
+    color: #606060;
+}
+
+.contact-number-light {
+    font-size: 0.70rem;
+    color: #8a8a8a;
+}
+
+.contact-number-dark-con {
+    color: #b7b7b7;
+}
+
+.contact-number-dark {
+    color: #a5a5a5;
+}
+
+.gc {
+    background-color: white;
+}

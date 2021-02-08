@@ -1,0 +1,145 @@
+.top_section_why_eke {
+    display: block;
+}
+
+.wye-label-row {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+}
+
+.why_eke_label_fraction {
+}
+
+.why_eke_label_bg {
+}
+
+.wye-header-column {
+    /* brings text down */
+    margin-top: 200px;
+}
+
+.wye-header-img {
+    pointer-events: none;
+}
+
+
+.wye_exe_column {
+    background-color: #2D2D2D;
+}
+
+.wye-exe-text-container {
+    margin-left: 75px;
+    letter-spacing: 1px;
+    margin-right: 120px;
+    margin-top: 200px;
+    font-family: "Libre Baskerville", serif;
+}
+
+.wye-exe-title {
+    color: wheat;
+    font-size: 74px;
+}
+
+.wye-eke-subtitle {
+    padding-top: 100px;
+    color: wheat;
+    font-size: 35px;
+}
+
+.wye-exe-text {
+    padding-top: 10px;
+    line-height: 37px;
+    color: white;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.wye-exe-spacer {
+    display: flex;
+    justify-content: center;
+    margin-top: 350px;
+}
+
+.wye-exe-divider-line {
+    height: 3px;
+    width: 300px;
+    border-radius: 99px;
+    background-color: #F5DEB3;
+}
+
+
+/*What you see*/
+.wye-what-you-get-title {
+    color: wheat;
+    text-align: center;
+    font-size: 45px;
+    font-family: "Libre Baskerville", serif;
+    margin-top: 80px;
+}
+
+.wye-what-you-get-subtitle {
+    margin: 20px 35px 200px;
+    line-height: 35px;
+    color: white;
+    text-align: center;
+    font-family: "Libre Baskerville", serif;
+    font-size: 12px;
+}
+
+.card_view_why_eke {
+    margin-top: 100px;
+    font-family: "Libre Baskerville", serif;
+}
+
+.cv-wye-image {
+    margin-left: auto;
+    margin-right: auto;
+    width: 890px;
+    background-color: #EEEEEE;
+    height: 450px;
+
+}
+
+/* The header under the card view image */
+.cv-wye-sub-header {
+    margin-top: 25px;
+    color: wheat;
+    margin-left: 45px;
+    margin-right: 40px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.cv-wye-desc {
+    margin-left: 45px;
+    margin-right: 45px;
+    color: #FFF6E6;
+    font-size: 11px;
+    line-height: 25px;
+    margin-top: 10px;
+}
+
+/* Extra bottom margin for "Technology and Education combined" card */
+.cv-wye-last_card-margin {
+    padding-bottom: 100px;
+
+}
+
+
+.lalala{
+    width: 100%;
+}
+
+/* Contains "Courses Offered" and "Admissions" section scroll links */
+.wye-exe-links {
+    margin-top: 60px;
+    line-height: 40px;
+    font-family: "Libre Baskerville", serif;
+    color: white;
+    font-size: 12px;
+}
+
+/* Changes color of "Scroll to Courses Offered" link */
+.why-eke-a-link-color {
+    color: #fdefd5;
+}

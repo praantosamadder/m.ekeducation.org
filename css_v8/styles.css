@@ -1,0 +1,46 @@
+.nav-bar {
+    position: sticky;
+    top: 0;
+    height: 120px;
+    max-height: 10vh;
+    background-color: white;
+    box-shadow: 0 12px 12px 0 rgba(0, 0, 0, 0.07);
+}
+
+.set_display_to_none_when_nav_menu_visible {
+    display: initial;
+}
+
+.intro_card {
+    height: 70vh;
+}
+
+.why_eke {
+    background-color: #2D2D2D;
+}
+
+.courses_offered {
+}
+
+.admissions {
+    background-color: #EEEEEE;
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

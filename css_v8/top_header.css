@@ -1,0 +1,19 @@
+.nav-bar {
+    display: grid;
+    grid-template-columns: 140px 1fr;
+}
+
+.nav-bar-logo {
+
+}
+
+.nav-bar-menu-button-container {
+    display: inline;
+    height: 100%;
+    cursor: pointer;
+    vertical-align: center;
+    horiz-align: center;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}

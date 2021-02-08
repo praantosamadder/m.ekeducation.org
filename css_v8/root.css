@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+}
+
+.full_width {
+    width: 100%;
+}
+
+.full_height {
+    height: 100vh;
+}
+
+.match_parent_height {
+    height: 100%;
+}
+
+.match_parent_width {
+    width: 100%;
+}
+
+img {
+    pointer-events: none;
+}
+
+.no-display {
+    display: none;
+}

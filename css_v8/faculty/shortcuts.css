@@ -1,0 +1,16 @@
+
+.nav-shortcuts__link-container {
+    margin: 3px;
+}
+
+.nav-shortcuts {
+    background-color: #ffebcb;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.nav-shortcuts__link {
+    color: black;
+    font-size: 13px;
+}
