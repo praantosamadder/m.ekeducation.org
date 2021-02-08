@@ -1,0 +1,24 @@
+.nav-shortcuts__first-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.nav-shortcuts__second-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.nav-shortcuts__link-container {
+    margin: 3px;
+}
+
+.nav-shortcuts {
+    background-color: #ffebcb;
+    padding: 15px;
+}
+
+.nav-shortcuts__link {
+    color: black;
+    font-size: 13px;
+    /*margin: 10px;*/
+}

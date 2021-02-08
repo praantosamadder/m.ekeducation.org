@@ -9,12 +9,10 @@ const isCurrentDeviceMobile = () => {
     return /Mobile|iP(hone|od|ad)|Android|BlackBerry|IEMobile|Kindle|Silk-Accelerated|(hpw|web)OS|Opera M(obi|ini)/.test(ua);
 };
 
-let mobileWebsiteLink = "http://m.ekeducation.org/index.html"
-
 if (isCurrentDeviceMobile()) {
-    console.log("Currently running on mobile.")
-    window.location.replace(mobileWebsiteLink)
-} else  {
-    console.log("Currently running on desktop/tablet")
-    window.close()
+    console.log("Current device is mobile")
+    // Do nothing
+} else {
+    console.log("Current device is not mobile")
+    window.location.replace("https://ekeducation.org/")
 }

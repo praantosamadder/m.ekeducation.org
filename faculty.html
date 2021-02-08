@@ -12,17 +12,18 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
 
     <!-- Styling -->
-    <link href="css/root.css" rel="stylesheet">
-    <link href="css/nav_menu.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/faculty/cur-logo.css">
+    <link href="./css/root.css" rel="stylesheet">
+    <link href="./css/nav_menu.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/faculty/shortcuts.css">
+    <link rel="stylesheet" href="./css/faculty/cur-logo.css">
 
 
     <link rel="shortcut icon" href="./img/icons/fav-alt.png" type="image/png">
 
-    <link href="css/top_header.css" rel="stylesheet">
-    <link href="css/nav_menu.css" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/faculty/faculty-name.css">
+    <link href="./css/top_header.css" rel="stylesheet">
+    <link href="./css/nav_menu.css" rel="stylesheet">
+    <link href="./css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/faculty/faculty-name.css">
 
 </head>
 <body>
@@ -48,13 +49,49 @@
 </div>
 
 <div class="nav-shortcuts">
-    <!-- TODO Add shortcuts to each section in alphabetical order -->
+    <div class="nav-shortcuts__first-row">
+        <div class="nav-shortcuts__link-container">
+            <a href="#accounting-section" class="nav-shortcuts__link">Accounting & Business Studies</a>
+        </div>
+        <div class="nav-shortcuts__link-container">
+            <a href="#bengali-section" class="nav-shortcuts__link">Bengali</a>
+        </div>
+    </div>
+    <div class="nav-shortcuts__second-row">
+        
+        <div class="nav-shortcuts__link-container">
+            <a href="#biology-section" class="nav-shortcuts__link">Biology</a>
+        </div>
+        
+        <div class="nav-shortcuts__link-container">
+            <a href="#chemistry-section" class="nav-shortcuts__link">Chemistry</a>
+        </div>
+        
+        <div class="nav-shortcuts__link-container">
+            <a href="#computer-science-section" class="nav-shortcuts__link">Computer Science</a>
+        </div>
+    </div>
+    <div class="nav-shortcuts__second-row">
+        
+        <div class="nav-shortcuts__link-container">
+            <a href="#english-language-section" class="nav-shortcuts__link">English Language</a>
+        </div>
+
+        <div class="nav-shortcuts__link-container">
+            <a href="#mathematics-section" class="nav-shortcuts__link">Mathematics</a>
+        </div>
+
+        <div class="nav-shortcuts__link-container">
+            <a href="#physics-section" class="nav-shortcuts__link">Physics</a>
+        </div>
+    </div>
+
 </div>
 
 
 
 <!-- GOLD BG: MATHEMATICS -->
-<div class="g0 full_width">
+<div class="g0 full_width" id="mathematics-section">
 
     <!-- Logo Column goes here -->
     <div class="g0-board-logo-container">
@@ -127,7 +164,7 @@
 </div>
 
 <!-- WHITE BG: ENGISH LANGUAGE -->
-<div class="g0 w0 full_width">
+<div class="g0 w0 full_width" id="english-language-section">
 
     <div class="g0-board-logo-container w0-board-logo-container-mod">
         <div class="g0-bl-cam-col">
@@ -145,7 +182,9 @@
         <div class="gold-content-col white-content-col">
             <div class="float-right float-left">
                 <div class="match_parent_width">
-                    <img src="./img/icons/IMG_1820.jpg" class="teacher-face-img float-left" width="170px">
+
+                    <!-- English Teacher Photo -->
+                    <img src="./img/faculty_img/english_teacher_img.jpg" class="teacher-face-img float-left" width="170px">
                 </div>
                 <div class="gold-teacher-text white-teacher-text match_parent_width">
                     <div class="elias-sir white-elias-sir">
@@ -198,8 +237,7 @@
 </div>
 
 <!-- BLACK BG: BANGLA -->
-<div class="g0 full_width">
-
+<div class="g0 full_width" id="bengali-section">
 
     <div class="g0-container black-template-container full_width">
 
@@ -211,7 +249,9 @@
         <div class="gold-content-col islam-content-col">
             <div class="float-right">
                 <div class="match_parent_width">
-                    <img src="./img/icons/IMG_1820.jpg" class="teacher-face-img" width="170px">
+
+                    <!-- Bengali Teacher Photo -->
+                    <img src="./img/faculty_img/bengali_teacher_img.jpg" class="teacher-face-img" width="170px">
                 </div>
                 <div class="gold-teacher-text match_parent_width">
                     <div class="elias-sir black-elias-sir">
@@ -246,7 +286,7 @@
 </div>
 
 <!-- WHITE BG: PHYSICS -->
-<div class="g0 physics-teacher-template full_width">
+<div class="g0 physics-teacher-template full_width" id="physics-section">
 
     <div class="g0-board-logo-container w0-board-logo-container-mod">
         <div class="g0-bl-cam-col">
@@ -264,7 +304,9 @@
         <div class="gold-content-col white-content-col">
             <div class="float-right float-left">
                 <div class="match_parent_width">
-                    <img src="./img/icons/IMG_1820.jpg" class="teacher-face-img float-left" width="170px">
+
+                    <!-- Physics Teacher Photo -->
+                    <img src="./img/faculty_img/physics_teacher.jpg" class="teacher-face-img float-left" width="170px">
                 </div>
                 <div class="gold-teacher-text white-teacher-text match_parent_width">
                     <div class="elias-sir white-elias-sir">
@@ -276,7 +318,7 @@
                     </div>
 
                     <div class="writer-unique-solutions white-writer-unique-solutions">
-                        Former Senior Physics Teacher, BIT &nbsp;&nbsp;|&nbsp;&nbsp; Writer of Super Fusion Series:
+                        BSc (Hons), MSc (Physics) Shahjalal University Sylhet &nbsp;&nbsp;|&nbsp;&nbsp; Writer of Super Fusion Series:
                         O and A Level
                     </div>
 
@@ -319,9 +361,8 @@
 </div>
 
 <!-- GOLD BG: CHEMISTRY -->
-<div class="g0 full_width">
+<div class="g0 full_width" id="chemistry-section">
 
-    <!-- remove from here -->
     <div class="g0-board-logo-container">
         <div class="g0-logo-dummy-col">
         </div>
@@ -334,8 +375,6 @@
         </div>
     </div>
 
-    <!-- Remove to here -->
-
     <div class="g0-container full_width">
 
         <div class="g0-header-col">
@@ -346,7 +385,9 @@
         <div class="gold-content-col">
             <div class="float-right">
                 <div class="match_parent_width">
-                    <img src="./img/icons/IMG_1820.jpg" class="teacher-face-img" width="170px">
+
+                    <!-- Chemistry Teacher Photo -->
+                    <img src="./img/faculty_img/chemistry_teacher_img.jpg" class="teacher-face-img" width="170px">
                 </div>
                 <div class="gold-teacher-text match_parent_width">
                     <div class="elias-sir">
@@ -393,14 +434,16 @@
 </div>
 
 <!-- WHITE BG: ACCOUNTING & BUSINESS -->
-<div class="g0 full_width">
+<div class="g0 full_width" id="accounting-section">
 
     <div class="g0-container w0-template-container full_width">
 
         <div class="gold-content-col white-content-col">
             <div class="float-right float-left">
                 <div class="match_parent_width">
-                    <img src="./img/icons/IMG_1820.jpg" class="teacher-face-img float-left" width="170px">
+
+                    <!-- Accounting Teacher Photo -->
+                    <img src="./img/faculty_img/accounting_teacher_img.jpg" class="teacher-face-img float-left" width="170px">
                 </div>
                 <div class="gold-teacher-text white-teacher-text match_parent_width">
                     <div class="elias-sir white-elias-sir">
@@ -462,7 +505,7 @@
 
 
 <!-- BLACK BG: BIOLOGY -->
-<div class="g0 full_width">
+<div class="g0 full_width" id="biology-section">
     <div class="g0-container biology-template-container black-template-container full_width">
 
         <div class="g0-header-col black-header-col">
@@ -473,7 +516,7 @@
         <div class="gold-content-col">
             <div class="float-right">
                 <div class="match_parent_width">
-                    <img src="./img/icons/IMG_1820.jpg" class="teacher-face-img" width="170px">
+                    <img src="./img/faculty_img/biology_teacher.jpg" class="teacher-face-img" width="170px">
                 </div>
                 <div class="gold-teacher-text match_parent_width">
                     <div class="elias-sir black-elias-sir">
@@ -509,7 +552,7 @@
 
 
 <!-- GOLD BG: COMPUTER SCIENCE -->
-<div class="g0 gc full_width">
+<div class="g0 gc full_width" id="computer-science-section">
     <div class="g0-board-logo-container w0-board-logo-container-mod">
         <div class="g0-bl-cam-col">
             <img src="./img/icons/board-icons/cam-logo-svg-resize.svg" alt="" class="g0-cam-img">
@@ -525,15 +568,17 @@
         <div class="gold-content-col white-content-col">
             <div class="float-right float-left">
                 <div class="match_parent_width">
-                    <img src="./img/icons/IMG_1820.jpg" class="teacher-face-img float-left" width="170px">
+
+                    <!-- Computer Science Teacher Photo -->
+                    <img src="./img/faculty_img/comp_sci_teacher_img.jpg" class="teacher-face-img float-left" width="170px">
                 </div>
                 <div class="gold-teacher-text white-teacher-text match_parent_width">
                     <div class="elias-sir white-elias-sir">
                         Ishmam Inan Sir
                     </div>
                     <div class="senior-mathematics-teacher white-senior-mathematics">
-                        Faculty of Computer Science
-                        <span class="oxford-international-school">Lorem Ipsum International School</span>
+                        Senior Faculty of Computer Science,
+                        <span class="oxford-international-school">Playpen Dhaka</span>
                     </div>
 
                     <div class="writer-unique-solutions white-writer-unique-solutions">
