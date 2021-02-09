@@ -19,11 +19,11 @@ Hamburger image downloaded from icons8
     <title>EkEducation</title>
 
     <!-- Facebook Open Graph API -->
-    <meta property="og:url"                content="https://m.ekeducation.org/" />
-    <meta property="og:type"               content="website" />
-    <meta property="og:title"              content="EkEducation | The excellence of O/A Level" />
-    <meta property="og:description"        content="The best teachers gathered to create the best learning experience" />
-    <meta property="og:image"              content="https://praantosamadder.github.io/m.ekeducation.org/img/faculty_img/mathematics_teacher_img.jpg" />
+    <meta content="https://m.ekeducation.org/"                property="og:url" />
+    <meta content="website"               property="og:type" />
+    <meta content="EkEducation | The excellence of O/A Level"              property="og:title" />
+    <meta content="The best teachers gathered to create the best learning experience"        property="og:description" />
+    <meta content="https://praantosamadder.github.io/m.ekeducation.org/img/faculty_img/mathematics_teacher_img.jpg"              property="og:image" />
 
     <!-- Font Dependencies -->
     <link href="https://fonts.gstatic.com" rel="preconnect">
@@ -37,578 +37,573 @@ Hamburger image downloaded from icons8
     <script src="https://cdn.jsdelivr.net/npm/mobile-detect@1.4.4/mobile-detect.min.js"></script>
 
     <!-- CSS -->
-    <link href="./css/root.css" rel="stylesheet" id="root_css">
-    <link href="./css/styles.css" rel="stylesheet" id="styles_css">
-    <link href="./css/top_header.css" rel="stylesheet" id="top_header_css">
-    <link href="./css/wye.css" rel="stylesheet" id="wye_css">
-    <link href="./css/courses_offered.css" rel="stylesheet" id="courses_offered_css">
-    <link href="./css/admissions.css" rel="stylesheet" id="admissions_css">
-    <link href="./css/nav_menu.css" rel="stylesheet" id="nav_menu_css">
-    <link rel="stylesheet" href="./css/footer.css">
+    <link href="./css/root.css" id="root_css" rel="stylesheet">
+    <link href="./css/styles.css" id="styles_css" rel="stylesheet">
+    <link href="./css/top_header.css" id="top_header_css" rel="stylesheet">
+    <link href="./css/wye.css" id="wye_css" rel="stylesheet">
+    <link href="./css/courses_offered.css" id="courses_offered_css" rel="stylesheet">
+    <link href="./css/admissions.css" id="admissions_css" rel="stylesheet">
+    <link href="./css/nav_menu.css" id="nav_menu_css" rel="stylesheet">
+    <link href="./css/footer.css" id="footer_css" rel="stylesheet">
 </head>
 <body>
 
-    <!-- Top Bar: Fixed -->
-    <div class="nav-bar full_width">
+<!-- Top Bar: Fixed -->
+<div class="nav-bar full_width">
 
-        <!-- Hamburger Button -->
-        <button class="nav-bar__menu-button-container" id="nav-hamburger-container">
+    <!-- Hamburger Button -->
+    <button class="nav-bar__menu-button-container" id="nav-hamburger-container">
 
-            <!-- Hamburger Button Icon -->
-            <img class="hamburger-icon" id="hamburger-icon" src="./img/icons/menu_hamburger.svg">
-        </button>
+        <!-- Hamburger Button Icon -->
+        <img class="hamburger-icon" id="hamburger-icon" src="./img/icons/menu_hamburger.svg">
+    </button>
 
-        <div class="nav-bar-logo"></div>
-    </div>
+    <div class="nav-bar-logo"></div>
+</div>
 
+<div class="nav-menu" id="nav-menu">
+    <!-- Contains links to the sections in the web site -->
+    <div class="nav-menu__links-container">
+        <div class="nav-menu-link-template">
+            <div class="nav-menu-clickable-link-container nav-menu-clickable-link-container-first">
 
-    <div class="nav-menu" id="nav-menu">
-        <!-- Contains links to the sections in the web site -->
-        <div class="nav-menu__links-container">
-            <div class="nav-menu-link-template">
-                <div class="nav-menu-clickable-link-container nav-menu-clickable-link-container-first">
+                <a class="nav-menu-link-color" href="#why-eke" id="nav-menu-link-why-eke" onclick="onClick_NavMenuItem('nav-menu-link-why-eke')">
+                    Why EkEducation
+                </a>
 
-                    <a class="nav-menu-link-color" href="#why-eke" id="nav-menu-link-why-eke" onclick="onClick_NavMenuItem('nav-menu-link-why-eke')">
-                        Why EkEducation
-                    </a>
-
-                </div>
-            </div>
-
-            <div class="nav-menu-link-template">
-                <div class="nav-menu-clickable-link-container">
-
-                    <a class="nav-menu-link-color" href="#courses_offered" id="nav-menu-link-courses" onclick="onClick_NavMenuItem('nav-menu-link-courses')">
-                        Courses
-                    </a>
-
-                </div>
-            </div>
-
-            <div class="nav-menu-link-template">
-                <div class="nav-menu-clickable-link-container">
-
-                    <a class="nav-menu-link-color" href="./faculty.html" id="nav-menu-link-meet-teachers" onclick="onClick_NavMenuItem('nav-menu-link-meet-teachers')">
-                        Meet The Teachers</a>
-
-                </div>
-            </div>
-
-            <div class="nav-menu-link-template">
-                <div class="nav-menu-clickable-link-container">
-
-                    <a class="nav-menu-link-color" href="#admissions" id="nav-menu-link-admissions" onclick="onClick_NavMenuItem('nav-menu-link-admissions')">
-                        Admissions</a>
-
-                </div>
-            </div>
-
-            <div class="nav-menu-link-template">
-                <div class="nav-menu-clickable-link-container">
-
-                    <a class="nav-menu-link-color" href="#admissions-divider" id="nav-menu-link-tuition-fees"
-                       onclick="onClick_NavMenuItem('nav-menu-link-tuition-fees')">Tuition Fees
-                    </a>
-
-                </div>
-            </div>
-
-            <div class="nav-menu-link-template">
-                <div class="nav-menu-clickable-link-container">
-
-                    <a class="nav-menu-link-color" href="#location_label" id="nav-menu-link-location" onclick="onClick_NavMenuItem('nav-menu-link-location')">
-                        Location
-                    </a>
-
-                </div>
             </div>
         </div>
 
-        <!-- Nav Menu footer: resembles to footer for webpage -->
-        <div class="nav-menu-footer-container">
-            ek<span class="nav-menu-footer-education-color-change">education</span> - the excellence of O/A Level
+        <div class="nav-menu-link-template">
+            <div class="nav-menu-clickable-link-container">
+
+                <a class="nav-menu-link-color" href="#courses_offered_section" id="nav-menu-link-courses" onclick="onClick_NavMenuItem('nav-menu-link-courses')">
+                    Courses
+                </a>
+
+            </div>
+        </div>
+
+        <div class="nav-menu-link-template">
+            <div class="nav-menu-clickable-link-container">
+
+                <a class="nav-menu-link-color" href="./faculty.html" id="nav-menu-link-meet-teachers" onclick="onClick_NavMenuItem('nav-menu-link-meet-teachers')">
+                    Meet The Teachers</a>
+
+            </div>
+        </div>
+
+        <div class="nav-menu-link-template">
+            <div class="nav-menu-clickable-link-container">
+
+                <a class="nav-menu-link-color" href="#admissions_section" id="nav-menu-link-admissions" onclick="onClick_NavMenuItem('nav-menu-link-admissions')">
+                    Admissions</a>
+
+            </div>
+        </div>
+
+        <div class="nav-menu-link-template">
+            <div class="nav-menu-clickable-link-container">
+
+                <a class="nav-menu-link-color" href="#admissions-divider" id="nav-menu-link-tuition-fees"
+                   onclick="onClick_NavMenuItem('nav-menu-link-tuition-fees')">Tuition Fees
+                </a>
+
+            </div>
+        </div>
+
+        <div class="nav-menu-link-template">
+            <div class="nav-menu-clickable-link-container">
+
+                <a class="nav-menu-link-color" href="#location_label" id="nav-menu-link-location" onclick="onClick_NavMenuItem('nav-menu-link-location')">
+                    Location
+                </a>
+
+            </div>
         </div>
     </div>
 
-    <!-- Everything but the nav-bar and the nav-menu -->
-    <div class="set_display_to_none_when_nav_menu_visible" id="everything-but-nav">
-        <!-- Intro Card Section -->
-        <div class="intro_card full_width"></div>
+    <!-- Nav Menu footer: resembles to footer for webpage -->
+    <div class="nav-menu-footer-container">
+        ek<span class="nav-menu-footer-education-color-change">education</span> - the excellence of O/A Level
+    </div>
+</div>
 
-        <!-- Why EkEducation Section -->
-        <div class="why_eke full_width" id="why-eke">
-            <!-- Label Row: Includes "why ekeducation" header img and "Excellence in O/A Level" text -->
-            <div class="wye-label-row full_width">
-                <div class="wye-header-column">
-                    <img class="wye-header-img" id="wye_header_img" src="./img/icons/why_eke_large.png"
-                         width="129px">
-                </div>
+<!-- Everything but the nav-bar and the nav-menu -->
+<div class="set_display_to_none_when_nav_menu_visible" id="everything-but-nav">
+    <!-- Intro Card Section -->
+    <div class="intro_card full_width"></div>
 
-                <div class="wye_exe_column">
-                    <div class="wye-exe-text-container">
-                        <div class="wye-exe-title">
-                            The excellence of O/A Level education.
-                        </div>
-
-                        <div class="wye-eke-subtitle">
-                            Lorem ipsum dolor
-                        </div>
-
-                        <div class="wye-exe-text">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        </div>
-
-                        <!-- Contains "Courses Offered" section and "Admissions" section scroll links -->
-                        <div class="wye-exe-links">
-                            <a class="why-eke-a-link-color" href="#courses_offered">See what courses are offered</a> or
-                            <a class="why-eke-a-link-color" href="#admissions">Get information on how to register</a>
-                        </div>
-                    </div>
-                </div>
+    <!-- Why EkEducation Section -->
+    <div class="why_eke full_width" id="why-eke">
+        <!-- Label Row: Includes "why ekeducation" header img and "Excellence in O/A Level" text -->
+        <div class="wye-label-row full_width">
+            <div class="wye-header-column">
+                <img class="wye-header-img" id="wye_header_img" src="./img/icons/why_eke_large.png"
+                     width="129px">
             </div>
 
-            <div class="wye-exe-spacer full_width">
-                <div class="wye-exe-divider-line"></div>
-                <div class="wye-exe-divider-line"></div>
-            </div>
-
-            <div class="wye-what-you-get-title full_width">
-                What you see is what you get
-            </div>
-
-            <div class="wye-what-you-get-subtitle">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </div>
-
-            <!-- A Journey of Success card -->
-            <div class="card--whyEkE">
-                <div class="card--whyEkE__image--container">
-                    <img src="img/stock/whyEkE__images/journeySuccess__StolenFromHarvard.jpg"
-                         class="card--whyEkE__image" height="540px" width="960px">
-                </div>
-                <div class="card--whyEkE__subHeader">
-                    A Journey of success
-                </div>
-
-                <div class="card--whyEkE__desc">
-                    Let your examination be your success story, not a nightmare.
-                    Good grades are tough but not impossible.
-                    Don't move forward in the direction that will make those A*s impossible.
-                </div>
-            </div>
-
-            <!-- The Classroom Experience card -->
-            <div class="card--whyEkE">
-                <div class="card--whyEkE__image--container">
-                    <img src="img/stock/whyEkE__images/classroomExperience__stolenFromHarvard.jpeg"
-                         class="card--whyEkE__image" height="540px" width="960px">
-                </div>
-
-                <div class="card--whyEkE__subHeader">
-                    The classroom experience
-                </div>
-
-                <div class="card--whyEkE__desc">
-                    Beautiful art and comfortable environment...
-                    Good grades are tough but not impossible.
-                    Don't move forward in the direction that will make those A*s impossible.
-                </div>
-            </div>
-
-            <!-- Technology and Learning Combined card -->
-            <div class="card--whyEkE cv-wye-last_card-margin">
-
-                <div class="card--whyEkE__image--container">
-                    <img src="img/stock/whyEkE__images/technologyAndEducation__StolenFromHarvard.jpg"
-                         class="card--whyEkE__image" height="540px" width="960px">
-                </div>
-
-                <div class="card--whyEkE__subHeader">Technology and learning combined</div>
-
-                <div class="card--whyEkE__desc">
-                    Not just a dull classroom with only books and pens.
-                    We have combined modern technology and hardware, including Macs, projectors,
-                    graphics tablets and iPads to create a unique learning experience for our students.
-                </div>
-
-            </div>
-
-        </div>
-
-        <!-- Courses Offered Section -->
-        <div class="courses_offered full_width" id="courses_offered">
-
-
-
-            <!-- Label section -->
-            <div class="label_section_courses_offered">
-
-                <div class="courses_offered_text_section">
-                    <div class="line_courses_offered match_parent_width"></div>
-
-                    <div class="all_general_courses_offered_text match_parent_width">
-                        All general courses from Cambridge and Edexcel offered
+            <div class="wye_exe_column">
+                <div class="wye-exe-text-container">
+                    <div class="wye-exe-title">
+                        The excellence of O/A Level education.
                     </div>
 
-                    <div class="all_courses_sub_text">
-                        ekeducation teaches every general subject that is offered by the British Council in Bangladesh.
-                        With separate classes for Cambridge and Edexcel batches,
-                        there's always a spot where you can just fit in.
+                    <div class="wye-eke-subtitle">
+                        Lorem ipsum dolor
                     </div>
 
-                </div>
-
-                <div class="courses_offered_label_right">
-
-                    <div class="courses_offered_label_fraction">
-                        <div class="courses_offered_label_bg">
-                            <div class="courses_offered_label_text">
-                                <img class="cof-header-img" id="cof-header-img" src="./img/icons/courses_offered.png"
-                                     width="129px">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-            <!-- Mathematics -->
-            <div class="card_view_subject_list_container match_parent_width">
-                <div class="cv_sl_template">
-                    <div class="cv_sl_subject_name">
-                        Mathematics (O/A Level)
+                    <div class="wye-exe-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     </div>
 
-                    <div class="cv_sl_instructor_name">
-                        Course Instructor: Elias Sir
-                        <br>
-                        <div class="cv_sl_instructor_school">
-                            Senior Mathematics Teacher, Oxford International School
-                        </div>
+                    <!-- Contains "Courses Offered" section and "Admissions" section scroll links -->
+                    <div class="wye-exe-links">
+                        <a class="why-eke-a-link-color" href="#courses_offered_section">See what courses are offered</a> or
+                        <a class="why-eke-a-link-color" href="#admissions_section">Get information on how to register</a>
                     </div>
-
-                    <div class="cv_sl_subs_cam">
-                    </div>
-                </div>
-            </div>
-
-            <!-- Chemistry -->
-            <div class="card_view_subject_list_container match_parent_width">
-                <div class="cv_sl_template">
-                    <div class="cv_sl_subject_name">
-                        Chemistry (O/A Level) with Lab
-                    </div>
-
-                    <div class="cv_sl_instructor_name">
-                        Course Instructor: Arif Sir
-                        <br>
-                        <div class="cv_sl_instructor_school">
-                            Senior Mathematics Teacher, Oxford International School
-                        </div>
-                    </div>
-
-                    <div class="cv_sl_subs_cam"></div>
-                </div>
-            </div>
-
-            <!-- English Language -->
-            <div class="card_view_subject_list_container match_parent_width">
-                <div class="cv_sl_template">
-                    <div class="cv_sl_subject_name">
-                        English Language (O/A Level)
-                    </div>
-
-                    <div class="cv_sl_instructor_name">
-                        Course Instructor: Kawkab Ms
-                        <br>
-                        <div class="cv_sl_instructor_school">
-                            Senior English Teacher & Guidance Counselor, Playpen
-                        </div>
-                    </div>
-
-                    <div class="cv_sl_subs_cam" style="margin-bottom: 17px"></div>
-                </div>
-            </div>
-
-            <!-- Bengali -->
-            <div class="card_view_subject_list_container match_parent_width">
-                <div class="cv_sl_template">
-                    <div class="cv_sl_subject_name">
-                        Bengali (O Level)
-                    </div>
-
-                    <div class="cv_sl_instructor_name">
-                        Course Instructor: Islam Sir
-                        <br>
-                        <div class="cv_sl_instructor_school">
-                            Bengali Teacher, Oxford International School
-                        </div>
-                    </div>
-
-                    <div class="cv_sl_subs_cam" style="margin-bottom: 17px"></div>
-                </div>
-            </div>
-
-            <!-- Computer Science -->
-            <div class="card_view_subject_list_container match_parent_width">
-                <div class="cv_sl_template">
-                    <div class="cv_sl_subject_name">
-                        Computer Science/ICT (O/A Level)
-                    </div>
-
-                    <div class="cv_sl_instructor_name">
-                        Course Instructor: Arif Sir
-                        <br>
-                        <div class="cv_sl_instructor_school">
-                            Senior Mathematics Teacher, Oxford International School
-                        </div>
-                    </div>
-
-                    <div class="cv_sl_subs_cam" style="margin-bottom: 17px"></div>
-                </div>
-            </div>
-
-            <!-- Physics -->
-            <div class="card_view_subject_list_container match_parent_width">
-                <div class="cv_sl_template">
-                    <div class="cv_sl_subject_name">
-                        Physics (O/A Level) with Lab
-                    </div>
-
-                    <div class="cv_sl_instructor_name">
-                        Course Instructor: Sonet Sir
-                        <br>
-                        <div class="cv_sl_instructor_school">
-                            Faculty of Physics, Oxford International School
-                        </div>
-                    </div>
-
-                    <div class="cv_sl_subs_cam" style="margin-bottom: 17px"></div>
-                </div>
-            </div>
-
-            <!-- Accounting -->
-            <div class="card_view_subject_list_container match_parent_width">
-                <div class="cv_sl_template">
-                    <div class="cv_sl_subject_name">
-                        Accounting (O/A Level) - IGCSE and IAL
-                    </div>
-
-                    <div class="cv_sl_instructor_name">
-                        Course Instructor: Kartic Sir
-                        <br>
-                        <div class="cv_sl_instructor_school">
-                            Department Head of Accounting, Oxford International School Dhanmondi
-                        </div>
-                    </div>
-
-                    <div class="cv_sl_subs_cam" style="margin-bottom: 17px"></div>
                 </div>
             </div>
         </div>
 
-        <!-- Admissions Section -->
-        <div class="admissions full_width" id="admissions">
+        <div class="wye-exe-spacer full_width">
+            <div class="wye-exe-divider-line"></div>
+            <div class="wye-exe-divider-line"></div>
+        </div>
 
-            <!-- Label section -->
+        <div class="wye-what-you-get-title full_width">
+            What you see is what you get
+        </div>
 
-            <div class="wye-label-row full_width">
-                <div class="why_eke_label_fraction">
-                    <div class="why_eke_label_bg">
-                        <div class="wye-header-column">
-                            <img class="wye-header-img" id="ad-header-img" src="./img/icons/admission.png"
+        <div class="wye-what-you-get-subtitle">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </div>
+
+        <!-- A Journey of Success card -->
+        <div class="card--whyEkE">
+            <div class="card--whyEkE__image--container">
+                <img class="card--whyEkE__image"
+                     height="540px" src="img/stock/whyEkE__images/journeySuccess__StolenFromHarvard.jpg" width="960px">
+            </div>
+            <div class="card--whyEkE__subHeader">
+                A Journey of success
+            </div>
+
+            <div class="card--whyEkE__desc">
+                Let your examination be your success story, not a nightmare.
+                Good grades are tough but not impossible.
+                Don't move forward in the direction that will make those A*s impossible.
+            </div>
+        </div>
+
+        <!-- The Classroom Experience card -->
+        <div class="card--whyEkE">
+            <div class="card--whyEkE__image--container">
+                <img class="card--whyEkE__image"
+                     height="540px" src="img/stock/whyEkE__images/classroomExperience__stolenFromHarvard.jpeg" width="960px">
+            </div>
+
+            <div class="card--whyEkE__subHeader">
+                The classroom experience
+            </div>
+
+            <div class="card--whyEkE__desc">
+                Beautiful art and comfortable environment...
+                Good grades are tough but not impossible.
+                Don't move forward in the direction that will make those A*s impossible.
+            </div>
+        </div>
+
+        <!-- Technology and Learning Combined card -->
+        <div class="card--whyEkE cv-wye-last_card-margin">
+
+            <div class="card--whyEkE__image--container">
+                <img class="card--whyEkE__image"
+                     height="540px" src="img/stock/whyEkE__images/technologyAndEducation__StolenFromHarvard.jpg" width="960px">
+            </div>
+
+            <div class="card--whyEkE__subHeader">Technology and learning combined</div>
+
+            <div class="card--whyEkE__desc">
+                Not just a dull classroom with only books and pens.
+                We have combined modern technology and hardware, including Macs, projectors,
+                graphics tablets and iPads to create a unique learning experience for our students.
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Courses Offered Section -->
+    <div class="courses_offered full_width" id="courses_offered_section">
+
+
+
+        <!-- Label section -->
+        <div class="label_section_courses_offered">
+
+            <div class="courses_offered_text_section">
+                <div class="line_courses_offered match_parent_width"></div>
+
+                <div class="all_general_courses_offered_text match_parent_width">
+                    All general courses from Cambridge and Edexcel offered
+                </div>
+
+                <div class="all_courses_sub_text">
+                    ekeducation teaches every general subject that is offered by the British Council in Bangladesh.
+                    With separate classes for Cambridge and Edexcel batches,
+                    there's always a spot where you can just fit in.
+                </div>
+
+            </div>
+
+            <div class="courses_offered_label_right">
+
+                <div class="courses_offered_label_fraction">
+                    <div class="courses_offered_label_bg">
+                        <div class="courses_offered_label_text">
+                            <img class="cof-header-img" id="cof-header-img" src="./img/icons/courses_offered.png"
                                  width="129px">
                         </div>
                     </div>
                 </div>
-
-                <div class="admissions_right_side">
-                    <div class="accessible_to_all_text">
-                        Accessible to all, impeccable to none. That's ek<span class="admissions_education_color_contrast">education</span>.
-                    </div>
-
-                    <div class="ekeducation_teaches_all_general">
-                        ekeducation teaches every general subject that is offered by the British Council in Bangladesh.
-                        With separate classes for Cambridge and Edexcel batches,
-                        there's always a spot where you can just fit in.
-                    </div>
-
-                </div>
-            </div>
-
-
-            <div class="ad-registration-requirements-container full_width">
-                <div class="ad-registration-requirements">
-                    All you need to register is a photograph of the student and a pen!
-                </div>
-            </div>
-
-            <div class="ad-form-download-link-container">
-                <a class="ad-form-download-link" href="./img/admissions_form.pdf" target="_blank">
-                    Download Admission Form
-                </a>
-            </div>
-
-            <div class="admissions_divider_container">
-                <div class="admissions_divider" id="admissions-divider"></div>
-            </div>
-
-            <!-- Tuition fees label -->
-            <div class="label__admissionChargeAndFees full_width">
-                Admission Charge and Tuition Fee
-            </div>
-
-            <!-- Fees template -->
-            <div class="fees_template_container">
-                <!-- Admission Fee -->
-                <div class="fees_template">
-                    <div class="card_view_fees_list_container match_parent_width">
-                        <div class="cv_ad_template">
-                            <div class="cv_ad_fees_label">
-                                Admission Fee
-                            </div>
-
-                            <div class="cv_ad_fees_cost">
-                                BDT 1000 (per subject, one-time, non-refundable)
-                            </div>
-
-                            <div class="cv_ad_bottom_virtual_margin">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- O Level Fees -->
-                <div class="fees_template">
-                    <div class="card_view_fees_list_container match_parent_width">
-                        <div class="cv_ad_template">
-                            <div class="cv_ad_fees_label">
-                                O Level (Monthly)
-                            </div>
-
-                            <div class="cv_ad_fees_cost">
-                                BDT 2500 per subject
-                            </div>
-
-                            <div class="cv_ad_bottom_virtual_margin">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- AS & A Level Fees -->
-                <div class="fees_template">
-                    <div class="card_view_fees_list_container match_parent_width">
-                        <div class="cv_ad_template">
-                            <div class="cv_ad_fees_label">
-                                AS & A Level (Monthly)
-                            </div>
-
-                            <div class="cv_ad_fees_cost">
-                                BDT 4000 per subject
-                            </div>
-
-                            <div class="cv_ad_bottom_virtual_margin">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="label__location full_width" id="location_label">
-                Location
-            </div>
-
-            <div class="location--address">
-                House 38 <span class="location--address__light">(First Floor), Road 05,
-            Block C, Banasree, Dhaka</span> <br>
-                Contact: <span class="location--address__light"> <a class="location--address__light" href="tel:+8801916017164">(+880) 191 601 7164</a>,
-            <a class="location--address__light" href="tel:+8801916017164">(+880) 100 000 0000</a></span><br>
-                Email: <a class="email_link location--address__light" href="mailto:mdeliaskanchan02@gmail.com">mdeliaskanchan02@gmail.com</a>
             </div>
 
         </div>
 
-        <!-- Footer Section -->
-        <div class="footer">
-            <div class="footer--columnSection">
-                <div class="footer--leftCol">
-                    <ul class="ul--footer">
-                        <li class="li--footer">
-
-                            <a class="nav-menu-link-color" href="#why-eke" id="nav-menu-link-why-eke5" onclick="onClick_NavMenuItem('nav-menu-link-why-eke')">
-                                Why EkEducation
-                            </a>
-                        </li>
-                        <li class="li--footer">
-
-                            <a class="nav-menu-link-color" href="#why-eke" id="nav-menu-link-why-eke6" onclick="onClick_NavMenuItem('nav-menu-link-why-eke')">
-                                Courses
-                            </a>
-                        </li>
-                        <li class="li--footer">
-
-                            <a class="nav-menu-link-color" href="#why-eke" id="nav-menu-link-why-eke7" onclick="onClick_NavMenuItem('nav-menu-link-why-eke')">
-                                Meet The Teacher
-                            </a>
-                        </li>
-                        <li class="li--footer">
-
-                            <a class="nav-menu-link-color" href="#why-eke" id="nav-menu-link-why-eke8" onclick="onClick_NavMenuItem('nav-menu-link-why-eke')">
-                                Admissions & Tuition Fees
-                            </a>
-                        </li>
-                    </ul>
+        <!-- Mathematics -->
+        <div class="card_view_subject_list_container match_parent_width">
+            <div class="cv_sl_template">
+                <div class="cv_sl_subject_name">
+                    Mathematics (O/A Level)
                 </div>
 
-                <div class="footer--rightCol">
+                <div class="cv_sl_instructor_name">
+                    Course Instructor: Elias Sir
+                    <br>
+                    <div class="cv_sl_instructor_school">
+                        Senior Mathematics Teacher, Oxford International School
+                    </div>
+                </div>
 
-                    <div class="footer--leftCol">
-                        <ul class="ul--footer">
-                            <li class="li--footer">
+                <div class="cv_sl_subs_cam">
+                </div>
+            </div>
+        </div>
 
-                                <a class="nav-menu-link-color" href="#why-eke" id="nav-menu-link-why-eke1" onclick="onClick_NavMenuItem('nav-menu-link-why-eke')">
-                                    Mathematics
-                                </a>
-                            </li>
-                            <li class="li--footer">
+        <!-- Chemistry -->
+        <div class="card_view_subject_list_container match_parent_width">
+            <div class="cv_sl_template">
+                <div class="cv_sl_subject_name">
+                    Chemistry (O/A Level) with Lab
+                </div>
 
-                                <a class="nav-menu-link-color" href="#why-eke" id="nav-menu-link-why-eke2" onclick="onClick_NavMenuItem('nav-menu-link-why-eke')">
-                                    Contact Us
-                                </a>
-                            </li>
-                            <li class="li--footer">
+                <div class="cv_sl_instructor_name">
+                    Course Instructor: Arif Sir
+                    <br>
+                    <div class="cv_sl_instructor_school">
+                        Senior Mathematics Teacher, Oxford International School
+                    </div>
+                </div>
 
-                                <a class="nav-menu-link-color" href="#why-eke" id="nav-menu-link-why-eke3" onclick="onClick_NavMenuItem('nav-menu-link-why-eke')">
-                                    Why EkEducation
-                                </a>
-                            </li>
-                            <li class="li--footer">
+                <div class="cv_sl_subs_cam"></div>
+            </div>
+        </div>
 
-                                <a class="nav-menu-link-color" href="#why-eke" id="nav-menu-link-why-eke4" onclick="onClick_NavMenuItem('nav-menu-link-why-eke')">
-                                    Why EkEducation
-                                </a>
-                            </li>
-                        </ul>
+        <!-- English Language -->
+        <div class="card_view_subject_list_container match_parent_width">
+            <div class="cv_sl_template">
+                <div class="cv_sl_subject_name">
+                    English Language (O/A Level)
+                </div>
+
+                <div class="cv_sl_instructor_name">
+                    Course Instructor: Kawkab Ms
+                    <br>
+                    <div class="cv_sl_instructor_school">
+                        Senior English Teacher & Guidance Counselor, Playpen
+                    </div>
+                </div>
+
+                <div class="cv_sl_subs_cam" style="margin-bottom: 17px"></div>
+            </div>
+        </div>
+
+        <!-- Bengali -->
+        <div class="card_view_subject_list_container match_parent_width">
+            <div class="cv_sl_template">
+                <div class="cv_sl_subject_name">
+                    Bengali (O Level)
+                </div>
+
+                <div class="cv_sl_instructor_name">
+                    Course Instructor: Islam Sir
+                    <br>
+                    <div class="cv_sl_instructor_school">
+                        Bengali Teacher, Oxford International School
+                    </div>
+                </div>
+
+                <div class="cv_sl_subs_cam" style="margin-bottom: 17px"></div>
+            </div>
+        </div>
+
+        <!-- Computer Science -->
+        <div class="card_view_subject_list_container match_parent_width">
+            <div class="cv_sl_template">
+                <div class="cv_sl_subject_name">
+                    Computer Science/ICT (O/A Level)
+                </div>
+
+                <div class="cv_sl_instructor_name">
+                    Course Instructor: Arif Sir
+                    <br>
+                    <div class="cv_sl_instructor_school">
+                        Senior Mathematics Teacher, Oxford International School
+                    </div>
+                </div>
+
+                <div class="cv_sl_subs_cam" style="margin-bottom: 17px"></div>
+            </div>
+        </div>
+
+        <!-- Physics -->
+        <div class="card_view_subject_list_container match_parent_width">
+            <div class="cv_sl_template">
+                <div class="cv_sl_subject_name">
+                    Physics (O/A Level) with Lab
+                </div>
+
+                <div class="cv_sl_instructor_name">
+                    Course Instructor: Sonet Sir
+                    <br>
+                    <div class="cv_sl_instructor_school">
+                        Faculty of Physics, Oxford International School
+                    </div>
+                </div>
+
+                <div class="cv_sl_subs_cam" style="margin-bottom: 17px"></div>
+            </div>
+        </div>
+
+        <!-- Accounting -->
+        <div class="card_view_subject_list_container match_parent_width">
+            <div class="cv_sl_template">
+                <div class="cv_sl_subject_name">
+                    Accounting (O/A Level) - IGCSE and IAL
+                </div>
+
+                <div class="cv_sl_instructor_name">
+                    Course Instructor: Kartic Sir
+                    <br>
+                    <div class="cv_sl_instructor_school">
+                        Department Head of Accounting, Oxford International School Dhanmondi
+                    </div>
+                </div>
+
+                <div class="cv_sl_subs_cam" style="margin-bottom: 17px"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Admissions Section -->
+    <div class="admissions full_width" id="admissions_section">
+
+        <!-- Label section -->
+
+        <div class="wye-label-row full_width">
+            <div class="why_eke_label_fraction">
+                <div class="why_eke_label_bg">
+                    <div class="wye-header-column">
+                        <img class="wye-header-img" id="ad-header-img" src="./img/icons/admission.png"
+                             width="129px">
                     </div>
                 </div>
             </div>
+
+            <div class="admissions_right_side">
+                <div class="accessible_to_all_text">
+                    Accessible to all, impeccable to none. That's ek<span class="admissions_education_color_contrast">education</span>.
+                </div>
+
+                <div class="ekeducation_teaches_all_general">
+                    ekeducation teaches every general subject that is offered by the British Council in Bangladesh.
+                    With separate classes for Cambridge and Edexcel batches,
+                    there's always a spot where you can just fit in.
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="ad-registration-requirements-container full_width">
+            <div class="ad-registration-requirements">
+                All you need to register is a photograph of the student and a pen!
+            </div>
+        </div>
+
+        <div class="ad-form-download-link-container">
+            <a class="ad-form-download-link" href="./img/admissions_form.pdf" target="_blank">
+                Download Admission Form
+            </a>
+        </div>
+
+        <div class="admissions_divider_container">
+            <div class="admissions_divider" id="admissions-divider"></div>
+        </div>
+
+        <!-- Tuition fees label -->
+        <div class="label__admissionChargeAndFees full_width">
+            Admission Charge and Tuition Fee
+        </div>
+
+        <!-- Fees template -->
+        <div class="fees_template_container">
+            <!-- Admission Fee -->
+            <div class="fees_template">
+                <div class="card_view_fees_list_container match_parent_width">
+                    <div class="cv_ad_template">
+                        <div class="cv_ad_fees_label">
+                            Admission Fee
+                        </div>
+
+                        <div class="cv_ad_fees_cost">
+                            BDT 1000 (per subject, one-time, non-refundable)
+                        </div>
+
+                        <div class="cv_ad_bottom_virtual_margin">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- O Level Fees -->
+            <div class="fees_template">
+                <div class="card_view_fees_list_container match_parent_width">
+                    <div class="cv_ad_template">
+                        <div class="cv_ad_fees_label">
+                            O Level (Monthly)
+                        </div>
+
+                        <div class="cv_ad_fees_cost">
+                            BDT 2500 per subject
+                        </div>
+
+                        <div class="cv_ad_bottom_virtual_margin">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- AS & A Level Fees -->
+            <div class="fees_template">
+                <div class="card_view_fees_list_container match_parent_width">
+                    <div class="cv_ad_template">
+                        <div class="cv_ad_fees_label">
+                            AS & A Level (Monthly)
+                        </div>
+
+                        <div class="cv_ad_fees_cost">
+                            BDT 4000 per subject
+                        </div>
+
+                        <div class="cv_ad_bottom_virtual_margin">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="label__location full_width" id="location_label">
+            Location
+        </div>
+
+        <div class="location--address">
+            House 38 <span class="location--address__light">(First Floor), Road 05,
+            Block C, Banasree, Dhaka</span> <br>
+            Contact: <span class="location--address__light"> <a class="location--address__light" href="tel:+8801916017164">(+880) 191 601 7164</a>,
+            <a class="location--address__light" href="tel:+8801916017164">(+880) 100 000 0000</a></span><br>
+            Email: <a class="email_link location--address__light" href="mailto:mdeliaskanchan02@gmail.com">mdeliaskanchan02@gmail.com</a>
         </div>
 
     </div>
 
+    <!-- Footer Section -->
+    <div class="footer">
+        <div class="footer--columnSection">
+            <div class="footer--leftCol">
+                <ul class="ul--footer">
+                    <li class="li--footer">
 
-    <!-- Bottom Fixed Banner -->
+                        <a class="nav-menu-link-color" href="#why-eke" id="nav-menu-link-why-eke5">
+                            Why EkEducation
+                        </a>
+                    </li>
+                    <li class="li--footer">
 
+                        <a class="nav-menu-link-color" href="#courses_offered_section" id="nav-menu-link-why-eke6">
+                            Courses
+                        </a>
+                    </li>
+                    <li class="li--footer">
 
-    <!-- Index Scripting -->
-    <script src="./js/script.js"></script>
-    <script src="./js/disable_zoom_safari_ios.js"></script>
-    <script src="./js/nav_menu.js"></script>
+                        <a class="nav-menu-link-color" href="./faculty.html" id="nav-menu-link-why-eke7">
+                            Meet The Teacher
+                        </a>
+                    </li>
+                    <li class="li--footer">
+
+                        <a class="nav-menu-link-color" href="#admissions_section" id="nav-menu-link-why-eke8">
+                            Admissions & Tuition Fees
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer--rightCol">
+
+                <div class="footer--leftCol">
+                    <ul class="ul--footer">
+                        <li class="li--footer">
+
+                            <a class="nav-menu-link-color" href="./faculty.html#mathematics-section" id="nav-menu-link-why-eke1">
+                                Mathematics
+                            </a>
+                        </li>
+                        <li class="li--footer">
+
+                            <a class="nav-menu-link-color" href="./faculty.html#mathematics-section" id="nav-menu-link-why-eke2">
+                                Contact Us
+                            </a>
+                        </li>
+                        <li class="li--footer">
+                            <a class="nav-menu-link-color" href="#why-eke" id="nav-menu-link-why-eke3">
+                                Why EkEducation
+                            </a>
+                        </li>
+                        <li class="li--footer">
+                            <a class="nav-menu-link-color" href="#why-eke" id="nav-menu-link-why-eke4">
+                                Why EkEducation
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!-- Bottom Fixed Banner -->
+
+<!-- JavaScript Scripting -->
+<script src="./js/script.js"></script>
+<script src="./js/disable_zoom_safari_ios.js"></script>
+<script src="./js/nav_menu.js"></script>
 <!--    <script src="./js/pvt.js"></script>-->
-    <!-- <script src="./js/redirect.js"></script> -->
+<!-- <script src="./js/redirect.js"></script> -->
 
 </body>
 </html>
