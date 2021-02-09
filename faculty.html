@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<!--suppress CheckImageSize -->
+<!--suppress ALL -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <title>Meet Our Teachers | EkEducation.org - Excellence in O/A Level</title>
 
     <!-- Font Dependencies -->
@@ -14,24 +14,23 @@
     <!-- Styling -->
     <link href="./css/root.css" rel="stylesheet">
     <link href="./css/nav_menu.css" rel="stylesheet">
-    <link rel="stylesheet" href="./css/faculty/shortcuts.css">
-    <link rel="stylesheet" href="./css/faculty/cur-logo.css">
-
-
-    <link rel="shortcut icon" href="./img/icons/fav-alt.png" type="image/png">
-
+    <link href="./css/faculty/shortcuts.css" rel="stylesheet">
+    <link href="./css/faculty/cur-logo.css" rel="stylesheet">
     <link href="./css/top_header.css" rel="stylesheet">
     <link href="./css/nav_menu.css" rel="stylesheet">
     <link href="./css/styles.css" rel="stylesheet">
-    <link rel="stylesheet" href="./css/faculty/faculty-name.css">
+    <link href="./css/faculty/faculty-name.css" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link href="./img/icons/fav-alt.png" rel="shortcut icon" type="image/png">
 
 </head>
 <body>
 
-<div class="f-nav-bar full_width">
-    <div class="nav-bar nav-bar-faculty full_width">
-        <button class="nav-bar-menu-button-container" id="back-button">
-            <img src="./img/icons/back-icon.png" width="60px" class="hamburger-icon" id="hamburger-icon">
+<div class="nav-bar-container--faculty full_width">
+    <div class="nav-bar nav-bar__faculty full_width">
+        <button class="nav-bar__menu-button-container" id="back-button">
+            <img class="nav-bar__hamburger-icon" id="hamburger-icon" src="img/icons/menu-icons/back-icon.png" width="60px">
         </button>
         <div class="nav-bar-logo"></div>
     </div>
@@ -48,39 +47,40 @@
     </div>
 </div>
 
+<!-- Navigation Shortcuts section -->
 <div class="nav-shortcuts">
 
     <div class="nav-shortcuts__left-col">
         <div class="nav-shortcuts__link-container">
-            <a href="#accounting-section" class="nav-shortcuts__link">Accounting & Business Studies</a>
+            <a class="nav-shortcuts__link" href="#accounting-section">Accounting & Business Studies</a>
         </div>
         <div class="nav-shortcuts__link-container">
-            <a href="#bengali-section" class="nav-shortcuts__link">Bengali</a>
+            <a class="nav-shortcuts__link" href="#bengali-section">Bengali</a>
         </div>
         <div class="nav-shortcuts__link-container">
-            <a href="#biology-section" class="nav-shortcuts__link">Biology</a>
+            <a class="nav-shortcuts__link" href="#biology-section">Biology</a>
         </div>
-        
+
         <div class="nav-shortcuts__link-container">
-            <a href="#chemistry-section" class="nav-shortcuts__link">Chemistry</a>
+            <a class="nav-shortcuts__link" href="#chemistry-section">Chemistry</a>
         </div>
-        
+
     </div>
 
     <div class="nav-shortcuts__right-col">
         <div class="nav-shortcuts__link-container">
-            <a href="#computer-science-section" class="nav-shortcuts__link">Computer Science</a>
+            <a class="nav-shortcuts__link" href="#computer-science-section">Computer Science</a>
         </div>
         <div class="nav-shortcuts__link-container">
-            <a href="#english-language-section" class="nav-shortcuts__link">English Language</a>
-        </div>
-
-        <div class="nav-shortcuts__link-container">
-            <a href="#mathematics-section" class="nav-shortcuts__link">Mathematics</a>
+            <a class="nav-shortcuts__link" href="#english-language-section">English Language</a>
         </div>
 
         <div class="nav-shortcuts__link-container">
-            <a href="#physics-section" class="nav-shortcuts__link">Physics</a>
+            <a class="nav-shortcuts__link" href="#mathematics-section">Mathematics</a>
+        </div>
+
+        <div class="nav-shortcuts__link-container">
+            <a class="nav-shortcuts__link" href="#physics-section">Physics</a>
         </div>
 
     </div>
@@ -88,36 +88,34 @@
 
 
 
-<!-- GOLD BG: MATHEMATICS -->
-<div class="g0 full_width" id="mathematics-section">
+<!-- MATHEMATICS SECTION | GOLD BACKGROUND -->
+<div class="faculty-card--gold-bg full_width" id="mathematics-section">
 
-    <!-- Logo Column goes here -->
-    <div class="g0-board-logo-container">
-        <div class="g0-logo-dummy-col">
+    <div class="curriculum-logo">
+        <div class="curriculum-logo-column__dummy--gold">
         </div>
-        <div class="g0-bl-cam-col">
-            <img src="./img/icons/board-icons/cam-logo-svg-resize.svg" alt="" class="g0-cam-img">
+        <div class="curriculum-logo-column__cambridge--gold">
+            <img class="g0-cam-img" src="./img/icons/board-icons/cam-logo-svg-resize.svg">
         </div>
 
-        <div class="g0-bl-ed-col">
-            <img src="./img/icons/board-icons/edexcel-logo-png.png" alt="" class="g0-bl-ed-img">
+        <div class="curriculum-logo-column__edexcel--gold">
+            <img class="g0-bl-ed-img" src="./img/icons/board-icons/edexcel-logo-png.png">
         </div>
     </div>
 
     <div class="g0-container full_width">
-
         <div class="g0-header-col mathematics-header-col">
-            <img src="./img/icons/mathematics_header_img.png" width="65px" class="fl-gold-math-header-img">
-
+            <img class="fl-gold-math-header-img" src="img/icons/faculty-subject-headers/mathematics_header_img.png" width="65px">
         </div>
 
         <div class="gold-content-col mathematics-content-col">
             <div class="float-right">
 
                 <div class="match_parent_width">
-                    <img src="img/faculty_img/mathematics_teacher_img.jpg" class="teacher-face-img" width="170px">
+                    <img class="teacher-face-img" src="img/faculty_img/mathematics_teacher_img.jpg" width="170px">
                 </div>
-                <div class="gold-teacher-text match_parent_width">
+
+                <div class="teacher-text--gold match_parent_width">
                     <div class="elias-sir">
                         Elias Sir
                     </div>
@@ -151,7 +149,7 @@
 
                     <!-- Contact Num Mathematics -->
                     <div class="contact-number-light-con">
-                        Contact Number: <a href="tel:+8801916017164" class="contact-number-light">+880 191 601 7164</a>
+                        Contact Number: <a class="contact-number-light" href="tel:+8801916017164">+880 191 601 7164</a>
                     </div>
 
                 </div>
@@ -162,17 +160,17 @@
 </div>
 
 <!-- WHITE BG: ENGISH LANGUAGE -->
-<div class="g0 w0 full_width" id="english-language-section">
+<div class="faculty-card--gold-bg w0 full_width" id="english-language-section">
 
-    <div class="g0-board-logo-container w0-board-logo-container-mod">
-        <div class="g0-bl-cam-col">
-            <img src="./img/icons/board-icons/cam-logo-svg-resize.svg" alt="" class="g0-cam-img">
+    <div class="curriculum-logo w0-board-logo-container-mod">
+        <div class="curriculum-logo-column__cambridge--gold">
+            <img alt="" class="g0-cam-img" src="./img/icons/board-icons/cam-logo-svg-resize.svg">
         </div>
 
-        <div class="g0-bl-ed-col">
-            <img src="./img/icons/board-icons/edexcel-logo-png.png" alt="" class="g0-bl-ed-img">
+        <div class="curriculum-logo-column__edexcel--gold">
+            <img alt="" class="g0-bl-ed-img" src="./img/icons/board-icons/edexcel-logo-png.png">
         </div>
-        <div class="g0-logo-dummy-col"></div>
+        <div class="curriculum-logo-column__dummy--gold"></div>
     </div>
 
     <div class="g0-container w0-template-container full_width">
@@ -182,9 +180,9 @@
                 <div class="match_parent_width">
 
                     <!-- English Teacher Photo -->
-                    <img src="./img/faculty_img/english_teacher_img.jpg" class="teacher-face-img float-left" width="170px">
+                    <img class="teacher-face-img float-left" src="./img/faculty_img/english_teacher_img.jpg" width="170px">
                 </div>
-                <div class="gold-teacher-text white-teacher-text match_parent_width">
+                <div class="teacher-text--gold white-teacher-text match_parent_width">
                     <div class="elias-sir white-elias-sir">
                         Kawkab Saadia Ms
                     </div>
@@ -217,9 +215,9 @@
 
                     <!-- Contact Number English Language -->
                     <div class="contact-number-light-con">
-                        Contact Number: <a href="tel:+8801918499060" class="contact-number-light">+880 191 849 9060</a>
+                        Contact Number: <a class="contact-number-light" href="tel:+8801918499060">+880 191 849 9060</a>
                     </div>
-                    
+
                 </div>
             </div>
 
@@ -227,7 +225,7 @@
 
 
         <div class="g0-header-col">
-            <img src="./img/icons/english-language-header-img.png" width="65px" alt="" class="fl-gold-math-header-img">
+            <img alt="" class="fl-gold-math-header-img" src="img/icons/faculty-subject-headers/english-language-header-img.png" width="65px">
 
         </div>
 
@@ -235,12 +233,12 @@
 </div>
 
 <!-- BLACK BG: BANGLA -->
-<div class="g0 full_width" id="bengali-section">
+<div class="faculty-card--gold-bg full_width" id="bengali-section">
 
     <div class="g0-container black-template-container full_width">
 
         <div class="g0-header-col black-header-col islam-sir-header-col">
-            <img src="./img/icons/bengali-header-img.png" width="65px" alt="" class="fl-gold-math-header-img">
+            <img alt="" class="fl-gold-math-header-img" src="img/icons/faculty-subject-headers/bengali-header-img.png" width="65px">
 
         </div>
 
@@ -249,9 +247,9 @@
                 <div class="match_parent_width">
 
                     <!-- Bengali Teacher Photo -->
-                    <img src="./img/faculty_img/bengali_teacher_img.jpg" class="teacher-face-img" width="170px">
+                    <img class="teacher-face-img" src="./img/faculty_img/bengali_teacher_img.jpg" width="170px">
                 </div>
-                <div class="gold-teacher-text match_parent_width">
+                <div class="teacher-text--gold match_parent_width">
                     <div class="elias-sir black-elias-sir">
                         Islam Sir
                     </div>
@@ -274,7 +272,7 @@
 
                     <!-- Contact Number Bengali -->
                     <div class="contact-number-light-con contact-number-dark-con">
-                        Contact Number: <a href="tel:+8801719277108" class="contact-number-light contact-number-dark">+880 171 927 7108</a>
+                        Contact Number: <a class="contact-number-light contact-number-dark" href="tel:+8801719277108">+880 171 927 7108</a>
                     </div>
                 </div>
             </div>
@@ -284,17 +282,17 @@
 </div>
 
 <!-- WHITE BG: PHYSICS -->
-<div class="g0 physics-teacher-template full_width" id="physics-section">
+<div class="faculty-card--gold-bg physics-teacher-template full_width" id="physics-section">
 
-    <div class="g0-board-logo-container w0-board-logo-container-mod">
-        <div class="g0-bl-cam-col">
-            <img src="./img/icons/board-icons/cam-logo-svg-resize.svg" alt="" class="g0-cam-img">
+    <div class="curriculum-logo w0-board-logo-container-mod">
+        <div class="curriculum-logo-column__cambridge--gold">
+            <img alt="" class="g0-cam-img" src="./img/icons/board-icons/cam-logo-svg-resize.svg">
         </div>
 
-        <div class="g0-bl-ed-col">
-            <img src="./img/icons/board-icons/edexcel-logo-png.png" alt="" class="g0-bl-ed-img">
+        <div class="curriculum-logo-column__edexcel--gold">
+            <img alt="" class="g0-bl-ed-img" src="./img/icons/board-icons/edexcel-logo-png.png">
         </div>
-        <div class="g0-logo-dummy-col"></div>
+        <div class="curriculum-logo-column__dummy--gold"></div>
     </div>
 
     <div class="g0-container w0-template-container full_width">
@@ -304,9 +302,9 @@
                 <div class="match_parent_width">
 
                     <!-- Physics Teacher Photo -->
-                    <img src="./img/faculty_img/physics_teacher.jpg" class="teacher-face-img float-left" width="170px">
+                    <img class="teacher-face-img float-left" src="./img/faculty_img/physics_teacher.jpg" width="170px">
                 </div>
-                <div class="gold-teacher-text white-teacher-text match_parent_width">
+                <div class="teacher-text--gold white-teacher-text match_parent_width">
                     <div class="elias-sir white-elias-sir">
                         Bayezid Sonet Sir
                     </div>
@@ -316,11 +314,11 @@
                     </div>
 
                     <div class="writer-unique-solutions white-writer-unique-solutions">
-                        BSc (Hons), MSc (Physics) Shahjalal University Sylhet &nbsp;&nbsp;|&nbsp;&nbsp; Writer of Super Fusion Series:
+                        BSc (Hons), MSc (Physics), Shahjalal University, Sylhet &nbsp;&nbsp;|&nbsp;&nbsp; Writer of Super Fusion Series:
                         O and A Level
                     </div>
 
-                    
+
                     <div class="writer-unique-solutions white-writer-unique-solutions phy-lab-available">
                         Physics Lab available
                     </div>
@@ -344,7 +342,7 @@
 
                     <!-- Contact number Physics -->
                     <div class="contact-number-light-con">
-                        Contact Number: <a href="tel:+8801919822422" class="contact-number-light">+880 191 982 2422</a>
+                        Contact Number: <a class="contact-number-light" href="tel:+8801919822422">+880 191 982 2422</a>
                     </div>
                 </div>
             </div>
@@ -352,31 +350,31 @@
 
 
         <div class="g0-header-col">
-            <img src="./img/icons/physics-header-img.png" width="65px" alt="" class="fl-gold-math-header-img">
+            <img alt="" class="fl-gold-math-header-img" src="img/icons/faculty-subject-headers/physics-header-img.png" width="65px">
         </div>
 
     </div>
 </div>
 
 <!-- GOLD BG: CHEMISTRY -->
-<div class="g0 full_width" id="chemistry-section">
+<div class="faculty-card--gold-bg full_width" id="chemistry-section">
 
-    <div class="g0-board-logo-container">
-        <div class="g0-logo-dummy-col">
+    <div class="curriculum-logo">
+        <div class="curriculum-logo-column__dummy--gold">
         </div>
-        <div class="g0-bl-cam-col">
-            <img src="./img/icons/board-icons/cam-logo-svg-resize.svg" alt="" class="g0-cam-img">
+        <div class="curriculum-logo-column__cambridge--gold">
+            <img alt="" class="g0-cam-img" src="./img/icons/board-icons/cam-logo-svg-resize.svg">
         </div>
 
-        <div class="g0-bl-ed-col">
-            <img src="./img/icons/board-icons/edexcel-logo-png.png" alt="" class="g0-bl-ed-img">
+        <div class="curriculum-logo-column__edexcel--gold">
+            <img alt="" class="g0-bl-ed-img" src="./img/icons/board-icons/edexcel-logo-png.png">
         </div>
     </div>
 
     <div class="g0-container full_width">
 
         <div class="g0-header-col">
-            <img src="./img/icons/chemistry-header-img.png" width="65px" alt="" class="fl-gold-math-header-img">
+            <img alt="" class="fl-gold-math-header-img" src="img/icons/faculty-subject-headers/chemistry-header-img.png" width="65px">
 
         </div>
 
@@ -385,9 +383,9 @@
                 <div class="match_parent_width">
 
                     <!-- Chemistry Teacher Photo -->
-                    <img src="./img/faculty_img/chemistry_teacher_img.jpg" class="teacher-face-img" width="170px">
+                    <img class="teacher-face-img" src="./img/faculty_img/chemistry_teacher_img.jpg" width="170px">
                 </div>
-                <div class="gold-teacher-text match_parent_width">
+                <div class="teacher-text--gold match_parent_width">
                     <div class="elias-sir">
                         Arif Sir
                     </div>
@@ -421,7 +419,7 @@
 
                     <!-- Contact Number Chemistry -->
                     <div class="contact-number-light-con">
-                        Contact Number: <a href="tel:+8801916017164" class="contact-number-light">+880 191 601 7164</a>
+                        Contact Number: <a class="contact-number-light" href="tel:+8801916017164">+880 191 601 7164</a>
                     </div>
 
                 </div>
@@ -432,7 +430,7 @@
 </div>
 
 <!-- WHITE BG: ACCOUNTING & BUSINESS -->
-<div class="g0 full_width" id="accounting-section">
+<div class="faculty-card--gold-bg full_width" id="accounting-section">
 
     <div class="g0-container w0-template-container full_width">
 
@@ -441,9 +439,9 @@
                 <div class="match_parent_width">
 
                     <!-- Accounting Teacher Photo -->
-                    <img src="./img/faculty_img/accounting_teacher_img.jpg" class="teacher-face-img float-left" width="170px">
+                    <img class="teacher-face-img float-left" src="./img/faculty_img/accounting_teacher_img.jpg" width="170px">
                 </div>
-                <div class="gold-teacher-text white-teacher-text match_parent_width">
+                <div class="teacher-text--gold white-teacher-text match_parent_width">
                     <div class="elias-sir white-elias-sir">
                         Kartic Sheel Sir
                     </div>
@@ -475,16 +473,16 @@
 
                     <!-- Contact Number Accounting -->
                     <div class="contact-number-light-con">
-                        Contact Number: <a href="tel:+8801932024171" class="contact-number-light">+880 193 202 4171</a>
+                        Contact Number: <a class="contact-number-light" href="tel:+8801932024171">+880 193 202 4171</a>
                     </div>
 
                     <div class="w1-board-logo-container-mod">
-                        <div class="g0-bl-cam-col">
-                            <img src="./img/icons/board-icons/cam-logo-svg-resize.svg" alt="" class="g0-cam-img">
+                        <div class="curriculum-logo-column__cambridge--gold">
+                            <img alt="" class="g0-cam-img" src="./img/icons/board-icons/cam-logo-svg-resize.svg">
                         </div>
 
-                        <div class="g0-bl-ed-col">
-                            <img src="./img/icons/board-icons/edexcel-logo-png.png" alt="" class="g0-bl-ed-img">
+                        <div class="curriculum-logo-column__edexcel--gold">
+                            <img alt="" class="g0-bl-ed-img" src="./img/icons/board-icons/edexcel-logo-png.png">
                         </div>
                     </div>
                 </div>
@@ -492,7 +490,7 @@
             </div>
         </div>
         <div class="g0-header-col accounting-header-col">
-            <img src="./img/icons/accounting-header-img.png" width="65px" alt="" class="fl-gold-math-header-img">
+            <img alt="" class="fl-gold-math-header-img" src="img/icons/faculty-subject-headers/accounting-header-img.png" width="65px">
         </div>
 
     </div>
@@ -503,20 +501,20 @@
 
 
 <!-- BLACK BG: BIOLOGY -->
-<div class="g0 full_width" id="biology-section">
+<div class="faculty-card--gold-bg full_width" id="biology-section">
     <div class="g0-container biology-template-container black-template-container full_width">
 
         <div class="g0-header-col black-header-col">
-            <img src="./img/icons/biology-header-img.png" width="65px" alt="" class="fl-gold-math-header-img">
+            <img alt="" class="fl-gold-math-header-img" src="img/icons/faculty-subject-headers/biology-header-img.png" width="65px">
 
         </div>
 
         <div class="gold-content-col">
             <div class="float-right">
                 <div class="match_parent_width">
-                    <img src="./img/faculty_img/biology_teacher.jpg" class="teacher-face-img" width="170px">
+                    <img class="teacher-face-img" src="./img/faculty_img/biology_teacher.jpg" width="170px">
                 </div>
-                <div class="gold-teacher-text match_parent_width">
+                <div class="teacher-text--gold match_parent_width">
                     <div class="elias-sir black-elias-sir">
                         Tyeba Tasnim Dipti Ms
                     </div>
@@ -539,7 +537,7 @@
 
                     <!-- Contact Number Biology -->
                     <div class="contact-number-light-con contact-number-dark-con">
-                        Contact Number: <a href="tel:+8801787898658" class="contact-number-light contact-number-dark">+880 178 789 8658</a>
+                        Contact Number: <a class="contact-number-light contact-number-dark" href="tel:+8801787898658">+880 178 789 8658</a>
                     </div>
                 </div>
             </div>
@@ -550,16 +548,16 @@
 
 
 <!-- GOLD BG: COMPUTER SCIENCE -->
-<div class="g0 gc full_width" id="computer-science-section">
-    <div class="g0-board-logo-container w0-board-logo-container-mod">
-        <div class="g0-bl-cam-col">
-            <img src="./img/icons/board-icons/cam-logo-svg-resize.svg" alt="" class="g0-cam-img">
+<div class="faculty-card--gold-bg gc full_width" id="computer-science-section">
+    <div class="curriculum-logo w0-board-logo-container-mod">
+        <div class="curriculum-logo-column__cambridge--gold">
+            <img alt="" class="g0-cam-img" src="./img/icons/board-icons/cam-logo-svg-resize.svg">
         </div>
 
-        <div class="g0-bl-ed-col">
-            <img src="./img/icons/board-icons/edexcel-logo-png.png" alt="" class="g0-bl-ed-img">
+        <div class="curriculum-logo-column__edexcel--gold">
+            <img alt="" class="g0-bl-ed-img" src="./img/icons/board-icons/edexcel-logo-png.png">
         </div>
-        <div class="g0-logo-dummy-col"></div>
+        <div class="curriculum-logo-column__dummy--gold"></div>
     </div>
     <div class="g0-container w0-template-container full_width">
 
@@ -568,9 +566,9 @@
                 <div class="match_parent_width">
 
                     <!-- Computer Science Teacher Photo -->
-                    <img src="./img/faculty_img/comp_sci_teacher_img.jpg" class="teacher-face-img float-left" width="170px">
+                    <img class="teacher-face-img float-left" src="./img/faculty_img/comp_sci_teacher_img.jpg" width="170px">
                 </div>
-                <div class="gold-teacher-text white-teacher-text match_parent_width">
+                <div class="teacher-text--gold white-teacher-text match_parent_width">
                     <div class="elias-sir white-elias-sir">
                         Ishmam Inan Sir
                     </div>
@@ -580,7 +578,7 @@
                     </div>
 
                     <div class="writer-unique-solutions white-writer-unique-solutions">
-                        <a href="https://coach.ishmaminan.com/" class="writer-unique-solutions white-writer-unique-solutions">https://coach.ishmaminan.com/</a>
+                        <a class="writer-unique-solutions white-writer-unique-solutions" href="https://coach.ishmaminan.com/">https://coach.ishmaminan.com/</a>
                     </div>
 
                     <div class="instructor-for-text english-instructor-for english-instructor-for-first-div">
@@ -602,7 +600,7 @@
 
                     <!-- Contact Number Computer Science -->
                     <div class="contact-number-light-con">
-                        Contact Number: <a href="tel:+8801643390839" class="contact-number-light">+880 164 339 0839</a>
+                        Contact Number: <a class="contact-number-light" href="tel:+8801643390839">+880 164 339 0839</a>
                     </div>
                 </div>
             </div>
@@ -610,7 +608,7 @@
 
 
         <div class="g0-header-col">
-            <img src="./img/icons/computer-science-header-fixed.png" width="65px" alt="" class="fl-gold-math-header-img">
+            <img alt="" class="fl-gold-math-header-img" src="./img/icons/computer-science-header-fixed.png" width="65px">
         </div>
     </div>
 </div>

@@ -24,7 +24,7 @@
     line-height: 55px;
 }
 
-.admissions_charge_label {
+.label__admissionChargeAndFees {
     color: black;
     text-align: center;
     font-size: 55px;
@@ -97,7 +97,7 @@
     margin-bottom: 12px;
 }
 
-.location_label {
+.label__location {
     color: #D1A85B;
     text-align: center;
     font-size: 55px;
@@ -110,7 +110,7 @@
     margin-top: 150px;
 }
 
-.location_address_eke {
+.location--address {
     margin: 10px 25px 0;
     line-height: 45px;
     color: #707070;
@@ -126,7 +126,7 @@
     color: #707070;
 }
 
-.location_address_lighter_shade {
+.location--address__light {
     color: #999999;
 }
 

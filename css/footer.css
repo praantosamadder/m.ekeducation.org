@@ -1,0 +1,16 @@
+.footer--columnSection {
+    height: 600px;
+    background-color: wheat;
+    display: grid;
+    grid-template-columns: 3fr 4fr;
+}
+
+.ul--footer {
+    list-style: none;
+}
+
+.li--footer {
+    padding-top: 30px;
+    font-size: 30px;
+
+}

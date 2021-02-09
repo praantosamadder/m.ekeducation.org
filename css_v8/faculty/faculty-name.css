@@ -5,7 +5,7 @@
 }
 
 /* GOLD BACKGROUND */
-.g0 {
+.faculty-card--gold-bg {
     background-color: #EEEEEE;
 }
 
@@ -48,7 +48,7 @@
     text-align: right;
 }
 
-.gold-teacher-text {
+.teacher-text--gold {
     float: right;
     margin-top: 15px;
     padding-right: 10px;
@@ -206,10 +206,10 @@
     margin-top: 50px;
 }
 
-.f-nav-bar {
+.nav-bar-container--faculty {
 }
 
-.nav-bar-faculty {
+.nav-bar__faculty {
     grid-template-columns: 90px 1fr;
     height: 60px;
 }

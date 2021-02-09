@@ -1,7 +1,7 @@
 /* MATHEMATICS */
 
 /* Grid with three columns */
-.g0-board-logo-container {
+.curriculum-logo {
     padding-top: 30px;
     background-color: #EEEEEE;
     display: grid;
@@ -24,11 +24,11 @@
     margin-left: 0;
 }
 
-.g0-logo-dummy-col {
+.curriculum-logo-column__dummy--gold {
 
 }
 
-.g0-bl-cam-col {
+.curriculum-logo-column__cambridge--gold {
 
 }
 
@@ -38,7 +38,7 @@
     /*padding-right: 10px;*/
 }
 
-.g0-bl-ed-col {
+.curriculum-logo-column__edexcel--gold {
 
 }
 

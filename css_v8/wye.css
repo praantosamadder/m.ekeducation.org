@@ -86,22 +86,25 @@
     font-size: 12px;
 }
 
-.card_view_why_eke {
+.card--whyEkE {
     margin-top: 100px;
     font-family: "Libre Baskerville", serif;
 }
 
-.cv-wye-image {
-    margin-left: auto;
-    margin-right: auto;
-    width: 890px;
-    background-color: #EEEEEE;
-    height: 450px;
+.card--whyEkE__image--container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-image: url("/img/stock/whyEkE__images/journeySuccess__StolenFromHarvard.jpg");
+}
 
+.card--whyEkE__image {
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 /* The header under the card view image */
-.cv-wye-sub-header {
+.card--whyEkE__subHeader {
     margin-top: 25px;
     color: wheat;
     margin-left: 45px;
@@ -110,7 +113,7 @@
     font-weight: bold;
 }
 
-.cv-wye-desc {
+.card--whyEkE__desc {
     margin-left: 45px;
     margin-right: 45px;
     color: #FFF6E6;

@@ -18,6 +18,13 @@ Hamburger image downloaded from icons8
     <meta charset="UTF-8">
     <title>EkEducation</title>
 
+    <!-- Facebook Open Graph API -->
+    <meta property="og:url"                content="https://m.ekeducation.org/" />
+    <meta property="og:type"               content="website" />
+    <meta property="og:title"              content="EkEducation | The excellence of O/A Level" />
+    <meta property="og:description"        content="The best teachers gathered to create the best learning experience" />
+    <meta property="og:image"              content="https://praantosamadder.github.io/m.ekeducation.org/img/faculty_img/mathematics_teacher_img.jpg" />
+
     <!-- Font Dependencies -->
     <link href="https://fonts.gstatic.com" rel="preconnect">
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
@@ -26,17 +33,10 @@ Hamburger image downloaded from icons8
     <!-- Favicon -->
     <link href="./img/icons/fav-alt.png" rel="shortcut icon" type="image/png">
 
-    <!-- Facebook Open Graph API -->
-    <meta property="og:url"                content="https://m.ekeducation.org/" />
-    <meta property="og:type"               content="website" />
-    <meta property="og:title"              content="EkEducation | The excellence of O/A Level" />
-    <meta property="og:description"        content="The best teachers gathered to create the best learning experience" />
-    <meta property="og:image"              content="https://praantosamadder.github.io/m.ekeducation.org/img/faculty_img/mathematics_teacher_img.jpg" />
-
     <!-- JavaScript Dependencies -->
     <script src="https://cdn.jsdelivr.net/npm/mobile-detect@1.4.4/mobile-detect.min.js"></script>
 
-    <!-- CSS v8 Debug -->
+    <!-- CSS -->
     <link href="./css/root.css" rel="stylesheet" id="root_css">
     <link href="./css/styles.css" rel="stylesheet" id="styles_css">
     <link href="./css/top_header.css" rel="stylesheet" id="top_header_css">
@@ -44,6 +44,7 @@ Hamburger image downloaded from icons8
     <link href="./css/courses_offered.css" rel="stylesheet" id="courses_offered_css">
     <link href="./css/admissions.css" rel="stylesheet" id="admissions_css">
     <link href="./css/nav_menu.css" rel="stylesheet" id="nav_menu_css">
+    <link rel="stylesheet" href="./css/footer.css">
 </head>
 <body>
 
@@ -51,13 +52,15 @@ Hamburger image downloaded from icons8
     <div class="nav-bar full_width">
 
         <!-- Hamburger Button -->
-        <button class="nav-bar-menu-button-container" id="nav-hamburger-container">
+        <button class="nav-bar__menu-button-container" id="nav-hamburger-container">
 
-            <!-- Hamburger Icon Image -->
+            <!-- Hamburger Button Icon -->
             <img class="hamburger-icon" id="hamburger-icon" src="./img/icons/menu_hamburger.svg">
         </button>
+
         <div class="nav-bar-logo"></div>
     </div>
+
 
     <div class="nav-menu" id="nav-menu">
         <!-- Contains links to the sections in the web site -->
@@ -141,9 +144,7 @@ Hamburger image downloaded from icons8
                          width="129px">
                 </div>
 
-                <!-- Right section where "The excellence of O/A Level Education" resides -->
                 <div class="wye_exe_column">
-
                     <div class="wye-exe-text-container">
                         <div class="wye-exe-title">
                             The excellence of O/A Level education.
@@ -182,13 +183,16 @@ Hamburger image downloaded from icons8
             </div>
 
             <!-- A Journey of Success card -->
-            <div class="card_view_why_eke">
-                <div class="cv-wye-image"></div>
-                <div class="cv-wye-sub-header">
+            <div class="card--whyEkE">
+                <div class="card--whyEkE__image--container">
+                    <img src="img/stock/whyEkE__images/journeySuccess__StolenFromHarvard.jpg"
+                         class="card--whyEkE__image" height="540px" width="960px">
+                </div>
+                <div class="card--whyEkE__subHeader">
                     A Journey of success
                 </div>
 
-                <div class="cv-wye-desc">
+                <div class="card--whyEkE__desc">
                     Let your examination be your success story, not a nightmare.
                     Good grades are tough but not impossible.
                     Don't move forward in the direction that will make those A*s impossible.
@@ -196,28 +200,34 @@ Hamburger image downloaded from icons8
             </div>
 
             <!-- The Classroom Experience card -->
-            <div class="card_view_why_eke">
+            <div class="card--whyEkE">
+                <div class="card--whyEkE__image--container">
+                    <img src="img/stock/whyEkE__images/classroomExperience__stolenFromHarvard.jpeg"
+                         class="card--whyEkE__image" height="540px" width="960px">
+                </div>
 
-                <div class="cv-wye-image"></div>
+                <div class="card--whyEkE__subHeader">
+                    The classroom experience
+                </div>
 
-                <div class="cv-wye-sub-header">The classroom experience</div>
-
-                <div class="cv-wye-desc">
+                <div class="card--whyEkE__desc">
                     Beautiful art and comfortable environment...
                     Good grades are tough but not impossible.
                     Don't move forward in the direction that will make those A*s impossible.
                 </div>
-
             </div>
 
             <!-- Technology and Learning Combined card -->
-            <div class="card_view_why_eke cv-wye-last_card-margin">
+            <div class="card--whyEkE cv-wye-last_card-margin">
 
-                <div class="cv-wye-image"></div>
+                <div class="card--whyEkE__image--container">
+                    <img src="img/stock/whyEkE__images/technologyAndEducation__StolenFromHarvard.jpg"
+                         class="card--whyEkE__image" height="540px" width="960px">
+                </div>
 
-                <div class="cv-wye-sub-header">Technology and learning combined</div>
+                <div class="card--whyEkE__subHeader">Technology and learning combined</div>
 
-                <div class="cv-wye-desc">
+                <div class="card--whyEkE__desc">
                     Not just a dull classroom with only books and pens.
                     We have combined modern technology and hardware, including Macs, projectors,
                     graphics tablets and iPads to create a unique learning experience for our students.
@@ -436,24 +446,22 @@ Hamburger image downloaded from icons8
             </div>
 
             <div class="ad-form-download-link-container">
-                <a class="ad-form-download-link" href="./img/admissions_form.pdf" target="_blank"> Download Admission Form
+                <a class="ad-form-download-link" href="./img/admissions_form.pdf" target="_blank">
+                    Download Admission Form
                 </a>
             </div>
-
-
 
             <div class="admissions_divider_container">
                 <div class="admissions_divider" id="admissions-divider"></div>
             </div>
 
             <!-- Tuition fees label -->
-            <div class="admissions_charge_label full_width">
+            <div class="label__admissionChargeAndFees full_width">
                 Admission Charge and Tuition Fee
             </div>
 
             <!-- Fees template -->
             <div class="fees_template_container">
-
                 <!-- Admission Fee -->
                 <div class="fees_template">
                     <div class="card_view_fees_list_container match_parent_width">
@@ -509,18 +517,84 @@ Hamburger image downloaded from icons8
                 </div>
             </div>
 
-            <div class="location_label full_width" id="location_label">
+            <div class="label__location full_width" id="location_label">
                 Location
             </div>
 
-            <div class="location_address_eke">
-                House 38 <span class="location_address_lighter_shade">(First Floor), Road 05,
+            <div class="location--address">
+                House 38 <span class="location--address__light">(First Floor), Road 05,
             Block C, Banasree, Dhaka</span> <br>
-                Contact: <span class="location_address_lighter_shade"> <a class="location_address_lighter_shade" href="tel:+8801916017164">(+880) 191 601 7164</a>,
-            <a class="location_address_lighter_shade" href="tel:+8801916017164">(+880) 100 000 0000</a></span><br>
-                Email: <a class="email_link location_address_lighter_shade" href="mailto:mdeliaskanchan02@gmail.com">mdeliaskanchan02@gmail.com</a>
+                Contact: <span class="location--address__light"> <a class="location--address__light" href="tel:+8801916017164">(+880) 191 601 7164</a>,
+            <a class="location--address__light" href="tel:+8801916017164">(+880) 100 000 0000</a></span><br>
+                Email: <a class="email_link location--address__light" href="mailto:mdeliaskanchan02@gmail.com">mdeliaskanchan02@gmail.com</a>
             </div>
 
+        </div>
+
+        <!-- Footer Section -->
+        <div class="footer">
+            <div class="footer--columnSection">
+                <div class="footer--leftCol">
+                    <ul class="ul--footer">
+                        <li class="li--footer">
+
+                            <a class="nav-menu-link-color" href="#why-eke" id="nav-menu-link-why-eke5" onclick="onClick_NavMenuItem('nav-menu-link-why-eke')">
+                                Why EkEducation
+                            </a>
+                        </li>
+                        <li class="li--footer">
+
+                            <a class="nav-menu-link-color" href="#why-eke" id="nav-menu-link-why-eke6" onclick="onClick_NavMenuItem('nav-menu-link-why-eke')">
+                                Courses
+                            </a>
+                        </li>
+                        <li class="li--footer">
+
+                            <a class="nav-menu-link-color" href="#why-eke" id="nav-menu-link-why-eke7" onclick="onClick_NavMenuItem('nav-menu-link-why-eke')">
+                                Meet The Teacher
+                            </a>
+                        </li>
+                        <li class="li--footer">
+
+                            <a class="nav-menu-link-color" href="#why-eke" id="nav-menu-link-why-eke8" onclick="onClick_NavMenuItem('nav-menu-link-why-eke')">
+                                Admissions & Tuition Fees
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer--rightCol">
+
+                    <div class="footer--leftCol">
+                        <ul class="ul--footer">
+                            <li class="li--footer">
+
+                                <a class="nav-menu-link-color" href="#why-eke" id="nav-menu-link-why-eke1" onclick="onClick_NavMenuItem('nav-menu-link-why-eke')">
+                                    Mathematics
+                                </a>
+                            </li>
+                            <li class="li--footer">
+
+                                <a class="nav-menu-link-color" href="#why-eke" id="nav-menu-link-why-eke2" onclick="onClick_NavMenuItem('nav-menu-link-why-eke')">
+                                    Contact Us
+                                </a>
+                            </li>
+                            <li class="li--footer">
+
+                                <a class="nav-menu-link-color" href="#why-eke" id="nav-menu-link-why-eke3" onclick="onClick_NavMenuItem('nav-menu-link-why-eke')">
+                                    Why EkEducation
+                                </a>
+                            </li>
+                            <li class="li--footer">
+
+                                <a class="nav-menu-link-color" href="#why-eke" id="nav-menu-link-why-eke4" onclick="onClick_NavMenuItem('nav-menu-link-why-eke')">
+                                    Why EkEducation
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
 
     </div>
@@ -534,7 +608,7 @@ Hamburger image downloaded from icons8
     <script src="./js/disable_zoom_safari_ios.js"></script>
     <script src="./js/nav_menu.js"></script>
 <!--    <script src="./js/pvt.js"></script>-->
-    <script src="./js/redirect.js"></script>
+    <!-- <script src="./js/redirect.js"></script> -->
 
 </body>
 </html>

@@ -28,7 +28,7 @@ function showNavMenu() {
     navMenu.style.display = "inherit"
     everythingButNav.style.display = "none"
     isNavMenuVisible = true
-    hamburgerIcon.src = "./img/icons/close_button.svg"
+    hamburgerIcon.src = "./img/icons/menu-icons/close_button.svg"
 }
 
 function
