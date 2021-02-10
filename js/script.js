@@ -11,3 +11,28 @@ if (md.os() === "AndroidOS" && md.userAgent() === "Chrome") {
 
     console.log(document.styleSheets)
 }
+
+// Hide nav bar when scrolling
+let canShowNavBar = true
+let navBar = document.getElementById("nav-bar")
+
+
+let prevScrollPos = window.pageYOffset;
+window.onscroll = function() {
+
+    let currentScrollPos = window.pageYOffset;
+    if (prevScrollPos > currentScrollPos) {
+        showNavBar()
+    } else {
+        hideNavBar()
+    }
+    prevScrollPos = currentScrollPos;
+}
+
+function hideNavBar() {
+    navBar.style.top = "-120px"
+}
+
+function showNavBar() {
+    navBar.style.top = "0px"
+}

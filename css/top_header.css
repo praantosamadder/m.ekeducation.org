@@ -1,6 +1,23 @@
 .nav-bar {
+    position: sticky;
+    top: 0;
+    height: 120px;
+    max-height: 10vh;
+    background-color: white;
+    box-shadow: 0 12px 12px 0 rgba(0, 0, 0, 0.07);
     display: grid;
-    grid-template-columns: 140px 1fr 140px; 
+    grid-template-columns: 140px 1fr 140px;
+    transition: top 0.3s;
+}
+
+.nav-bar--hide {
+    transform: translateY(-120px);
+    transition-duration: 500ms;
+}
+
+.nav-bar--show {
+    transform: translateY(120px);
+    transition-duration: 500ms;
 }
 
 .nav-bar-logo {
