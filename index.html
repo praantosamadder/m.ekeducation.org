@@ -33,7 +33,8 @@ Hamburger image downloaded from icons8
 
     <!-- JavaScript Dependencies -->
     <script src="https://cdn.jsdelivr.net/npm/mobile-detect@1.4.4/mobile-detect.min.js"></script>
-    <script src="./dependencies/js/require.js"></script>
+<!--    <script src="./dependencies/js/require.js"></script>-->
+    <script src="./dependencies/js/flickity.js"></script>
 
 
     <!-- CSS -->
@@ -45,6 +46,7 @@ Hamburger image downloaded from icons8
     <link href="./css/admissions.css" id="admissions_css" rel="stylesheet">
     <link href="./css/nav_menu.css" id="nav_menu_css" rel="stylesheet">
     <link href="./css/footer.css" id="footer_css" rel="stylesheet">
+    <link href="./dependencies/css/flickity.css" rel="stylesheet">
 
 </head>
 <body>
@@ -247,7 +249,7 @@ Hamburger image downloaded from icons8
 
 
         <!-- Label section -->
-        <div class="label_section_courses_offered">
+        <div class="coursesOffered__labelSection">
 
             <div class="courses_offered_text_section">
                 <div class="line_courses_offered match_parent_width"></div>
@@ -275,7 +277,27 @@ Hamburger image downloaded from icons8
                     </div>
                 </div>
             </div>
+        </div>
 
+        <!-- Carousel Section -->
+        <div class="carousel-section full_width" id="carousel-section">
+            <div class="main-carousel">
+                <div class="carousel-cell">
+                    <div class="carousel-cell__content carousel-cell__content--first">
+
+                    </div>
+                </div>
+                <div class="carousel-cell">
+                    <div class="carousel-cell__content carousel-cell__content--second">
+
+                    </div>
+                </div>
+                <div class="carousel-cell">
+                    <div class="carousel-cell__content carousel-cell__content--third">
+
+                    </div>
+                </div>
+            </div>
         </div>
 
         <!-- Mathematics -->
@@ -517,7 +539,7 @@ Hamburger image downloaded from icons8
                         <div class="cv_ad_bottom_virtual_margin">
                         </div>
                     </div>
-                </div>N
+                </div>
             </div>
         </div>
 
@@ -607,8 +629,7 @@ Hamburger image downloaded from icons8
 <script src="./js/script.js"></script>
 <script src="./js/disable_zoom_safari_ios.js"></script>
 <script src="./js/nav_menu.js"></script>
-<script src="./data/data.json"></script>
-<script src="./data/dataload.js"></script>
+<script src="./js/carousel.js"></script>
 <!--    <script src="./js/pvt.js"></script>-->
 <!-- <script src="./js/redirect.js"></script> -->
 
