@@ -1,11 +1,14 @@
 .nav-bar {
     display: grid;
-    grid-template-columns: 140px 1fr;
+    grid-template-columns: 140px 1fr 140px; 
 }
 
 .nav-bar-logo {
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 
 .nav-bar__menu-button-container {
     display: inline;
