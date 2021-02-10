@@ -123,13 +123,15 @@
 
 .carousel-cell {
     height: 900px;
-    width: 850px;
+    width: 900px;
+    cursor: initial;
 }
 
 .carousel-cell__content {
+    background-color: white;
     height: 900px;
-    margin-left: 15px;
-    margin-right: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .carousel-cell__content--first {
