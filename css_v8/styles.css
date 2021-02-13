@@ -7,7 +7,7 @@
     box-shadow: 0 12px 12px 0 rgba(0, 0, 0, 0.07);
 }
 
-.set_display_to_none_when_nav_menu_visible {
+.articleTag {
     display: initial;
 }
 

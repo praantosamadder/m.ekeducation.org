@@ -16,12 +16,14 @@ Hamburger image downloaded from icons8
     <meta charset="UTF-8">
     <title>EkEducation</title>
 
-    <!-- Facebook Open Graph API -->
+    <!-- Facebook Meta -->
     <meta content="https://m.ekeducation.org/" property="og:url" />
     <meta content="website" property="og:type" />
     <meta content="EkEducation | The excellence of O/A Level" property="og:title" />
     <meta content="The best teachers gathered to create the best learning experience" property="og:description" />
     <meta content="https://praantosamadder.github.io/m.ekeducation.org/img/faculty_img/mathematics_teacher_img.jpg" property="og:image" />
+
+    <!-- Twitter Meta -->
 
     <!-- Font Dependencies -->
     <link href="https://fonts.gstatic.com" rel="preconnect">
@@ -51,12 +53,11 @@ Hamburger image downloaded from icons8
 </head>
 <body>
 
-<!-- Top Bar: Fixed -->
-<div class="nav-bar full_width" id="nav-bar">
+<!-- Nav Bar -->
+<nav class="nav-bar full_width" id="nav-bar">
 
     <!-- Hamburger Button -->
     <button class="nav-bar__menu-button-container" id="nav-hamburger-container">
-
         <!-- Hamburger Button Icon -->
         <img class="hamburger-icon" id="hamburger-icon" src="./img/icons/menu_hamburger.svg">
     </button>
@@ -65,9 +66,10 @@ Hamburger image downloaded from icons8
         <img src="./img/icons/menu-icons/nav-bar-banner-logo.png" height="60px">
     </div>
 
-    <div class="xx"></div>
-</div>
+    <div></div>
+</nav>
 
+<!-- Nav Bar Menu List -->
 <div class="nav-menu" id="nav-menu">
     <!-- Contains links to the sections in the web site -->
     <div class="nav-menu__links-container">
@@ -137,12 +139,12 @@ Hamburger image downloaded from icons8
 </div>
 
 <!-- Everything but the nav-bar and the nav-menu -->
-<div class="set_display_to_none_when_nav_menu_visible" id="everything-but-nav">
+<article class="articleTag" id="articleTag">
     <!-- Intro Card Section -->
-    <div class="intro_card full_width"></div>
+    <section class="intro_card full_width"></section>
 
     <!-- Why EkEducation Section -->
-    <div class="why_eke full_width" id="why-eke">
+    <section class="why_eke full_width" id="why-eke">
         <!-- Label Row: Includes "why ekeducation" header img and "Excellence in O/A Level" text -->
         <div class="wye-label-row full_width">
             <div class="wye-header-column">
@@ -191,7 +193,8 @@ Hamburger image downloaded from icons8
         <!-- A Journey of Success card -->
         <div class="card--whyEkE">
             <div class="card--whyEkE__image--container">
-                <img class="card--whyEkE__image"
+                <img class="card--whyEkE__image" alt="This is a picture of a student doing research,
+                    symbolic to how EkEducation can lead to success in your O and A Level examinations"
                      height="483.75px" src="img/stock/whyEkE__images/journeySuccess__StolenFromHarvard.jpg" width="860px">
             </div>
             <div class="card--whyEkE__subHeader">
@@ -241,12 +244,10 @@ Hamburger image downloaded from icons8
 
         </div>
 
-    </div>
+    </section>
 
     <!-- Courses Offered Section -->
-    <div class="courses_offered full_width" id="courses_offered_section">
-
-
+    <section class="courses_offered full_width" id="courses_offered_section">
 
         <!-- Label section -->
         <div class="coursesOffered__labelSection">
@@ -433,10 +434,10 @@ Hamburger image downloaded from icons8
                 <div class="cv_sl_subs_cam" style="margin-bottom: 17px"></div>
             </div>
         </div>
-    </div>
+    </section>
 
     <!-- Admissions Section -->
-    <div class="admissions full_width" id="admissions_section">
+    <section class="admissions full_width" id="admissions_section">
 
         <!-- Label section -->
 
@@ -555,10 +556,10 @@ Hamburger image downloaded from icons8
             Email: <a class="email_link location--address__light" href="mailto:mdeliaskanchan02@gmail.com">mdeliaskanchan02@gmail.com</a>
         </div>
 
-    </div>
+    </section>
 
     <!-- Footer Section -->
-    <div class="footer">
+    <footer class="footer">
         <div class="footer--columnSection">
             <div class="footer--leftCol">
                 <ul class="ul--footer">
@@ -619,9 +620,9 @@ Hamburger image downloaded from icons8
                 </div>
             </div>
         </div>
-    </div>
+    </footer>
 
-</div>
+</article>
 
 <!-- Bottom Fixed Banner -->
 
