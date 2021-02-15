@@ -116,14 +116,21 @@
 }
 
 /* Carousel Section */
+.carousel-section {
+    display: flex;
+    justify-content: center;
+}
+
+
 .main-carousel {
+    width: 95%;
     background-color: white;
     margin-bottom: 150px;
 }
 
 .carousel-cell {
-    height: 900px;
-    width: 900px;
+    height: 870px;
+    width: 870px;
     cursor: initial;
 }
 

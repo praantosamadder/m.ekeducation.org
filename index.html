@@ -25,6 +25,12 @@ Hamburger image downloaded from icons8
 
     <!-- Twitter Meta -->
 
+
+    <meta name="description" content="Coaching for O/A Level education">
+    <meta name="keywords" content="Education, O/A Level, O Level, A Level, AS Level, Cambridge, Edexcel,
+        Mock Exams, Mathematics Teacher, Coaching in Dhaka, Coaching in Banasree, Elias Sir">
+    <meta name="author" content="Praanto Samadder">
+
     <!-- Font Dependencies -->
     <link href="https://fonts.gstatic.com" rel="preconnect">
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
@@ -33,9 +39,11 @@ Hamburger image downloaded from icons8
     <!-- Favicon -->
     <link href="./img/icons/fav-alt.png" rel="shortcut icon" type="image/png">
 
+    <!-- Preload -->
+    <link rel="prefetch" href="./img/icons/menu-icons/close_button.svg" as="image">
+
     <!-- JavaScript Dependencies -->
     <script src="https://cdn.jsdelivr.net/npm/mobile-detect@1.4.4/mobile-detect.min.js"></script>
-<!--    <script src="./dependencies/js/require.js"></script>-->
     <script src="./dependencies/js/flickity.js"></script>
 
 
@@ -154,15 +162,15 @@ Hamburger image downloaded from icons8
 
             <div class="wye_exe_column">
                 <div class="wye-exe-text-container">
-                    <div class="wye-exe-title">
+                    <div class="wye-exe-title" id="whyEkE__title">
                         The excellence of O/A Level education.
                     </div>
 
-                    <div class="wye-eke-subtitle">
+                    <div class="wye-eke-subtitle" id="whyEkE__subTitle">
                         Lorem ipsum dolor
                     </div>
 
-                    <div class="wye-exe-text">
+                    <div class="wye-exe-text" id="whyEkE__text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     </div>
@@ -178,14 +186,13 @@ Hamburger image downloaded from icons8
 
         <div class="wye-exe-spacer full_width">
             <div class="wye-exe-divider-line"></div>
-            <div class="wye-exe-divider-line"></div>
         </div>
 
-        <div class="wye-what-you-get-title full_width">
+        <div class="wye-what-you-get-title full_width" id="whatYouGet__text">
             What you see is what you get
         </div>
 
-        <div class="wye-what-you-get-subtitle">
+        <div class="wye-what-you-get-subtitle" id="whatYouGet__subTitle">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit,
             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </div>
@@ -195,13 +202,13 @@ Hamburger image downloaded from icons8
             <div class="card--whyEkE__image--container">
                 <img class="card--whyEkE__image" alt="This is a picture of a student doing research,
                     symbolic to how EkEducation can lead to success in your O and A Level examinations"
-                     height="483.75px" src="img/stock/whyEkE__images/journeySuccess__StolenFromHarvard.jpg" width="860px">
+                     src="img/stock/whyEkE__images/journeySuccess__StolenFromHarvard.jpg" width="95%">
             </div>
-            <div class="card--whyEkE__subHeader">
+            <div class="card--whyEkE__text card--whyEkE__subHeader">
                 A Journey of success
             </div>
 
-            <div class="card--whyEkE__desc">
+            <div class="card--whyEkE__text card--whyEkE__desc">
                 Let your examination be your success story, not a nightmare.
                 Good grades are tough but not impossible.
                 Don't move forward in the direction that will make those A*s impossible.
@@ -211,15 +218,14 @@ Hamburger image downloaded from icons8
         <!-- The Classroom Experience card -->
         <div class="card--whyEkE">
             <div class="card--whyEkE__image--container">
-                <img class="card--whyEkE__image"
-                     height="483.75px" src="img/stock/whyEkE__images/classroomExperience__stolenFromHarvard.jpeg" width="860px">
+                <img class="card--whyEkE__image" src="img/stock/whyEkE__images/classroomExperience__stolenFromHarvard.jpeg" width="95%">
             </div>
 
-            <div class="card--whyEkE__subHeader">
+            <div class="card--whyEkE__text card--whyEkE__subHeader">
                 The classroom experience
             </div>
 
-            <div class="card--whyEkE__desc">
+            <div class="card--whyEkE__text card--whyEkE__desc">
                 Beautiful art and comfortable environment...
                 Good grades are tough but not impossible.
                 Don't move forward in the direction that will make those A*s impossible.
@@ -231,12 +237,12 @@ Hamburger image downloaded from icons8
 
             <div class="card--whyEkE__image--container">
                 <img class="card--whyEkE__image"
-                     height="483.75px" src="img/stock/whyEkE__images/technologyAndEducation__StolenFromHarvard.jpg" width="860px">
+                     src="img/stock/whyEkE__images/technologyAndEducation__StolenFromHarvard.jpg" width="95%">
             </div>
 
-            <div class="card--whyEkE__subHeader">Technology and learning combined</div>
+            <div class="card--whyEkE__text card--whyEkE__subHeader">Technology and learning combined</div>
 
-            <div class="card--whyEkE__desc">
+            <div class="card--whyEkE__text card--whyEkE__desc">
                 Not just a dull classroom with only books and pens.
                 We have combined modern technology and hardware, including Macs, projectors,
                 graphics tablets and iPads to create a unique learning experience for our students.
@@ -260,7 +266,7 @@ Hamburger image downloaded from icons8
                 </div>
 
                 <div class="all_courses_sub_text">
-                    ekeducation teaches every general subject that is offered by the British Council in Bangladesh.
+                    <span class="admissionPromise__bold">ek</span>education teaches every general subject that is offered by the British Council in Bangladesh.
                     With separate classes for Cambridge and Edexcel batches,
                     there's always a spot where you can just fit in.
                 </div>
@@ -332,7 +338,7 @@ Hamburger image downloaded from icons8
                     Course Instructor: Arif Sir
                     <br>
                     <div class="cv_sl_instructor_school">
-                        Senior Mathematics Teacher, Oxford International School
+                        Former Senior Teacher, Scholastica Uttara
                     </div>
                 </div>
 
@@ -348,7 +354,7 @@ Hamburger image downloaded from icons8
                 </div>
 
                 <div class="cv_sl_instructor_name">
-                    Course Instructor: Kawkab Ms
+                    Course Instructor: Kawkab Saadia Ms
                     <br>
                     <div class="cv_sl_instructor_school">
                         Senior English Teacher & Guidance Counselor, Playpen
@@ -386,10 +392,10 @@ Hamburger image downloaded from icons8
                 </div>
 
                 <div class="cv_sl_instructor_name">
-                    Course Instructor: Arif Sir
+                    Course Instructor: Ishmam Inan Sir
                     <br>
                     <div class="cv_sl_instructor_school">
-                        Senior Mathematics Teacher, Oxford International School
+                        Faculty of Computer Science & ICT, Playpen
                     </div>
                 </div>
 
@@ -452,11 +458,11 @@ Hamburger image downloaded from icons8
             </div>
 
             <div class="admissions_right_side">
-                <div class="accessible_to_all_text">
-                    Accessible to all, impeccable to none. That's ek<span class="admissions_education_color_contrast">education</span>.
+                <div class="admissionPromise__title" id="admissionPromise__title">
+                    The best possible education with affordable cost. That's ek<span class="admissions_education_color_contrast">education</span>.
                 </div>
 
-                <div class="ekeducation_teaches_all_general">
+                <div class="admissionPromise__subtitle" id="admissionPromise__subtitle">
                     ekeducation teaches every general subject that is offered by the British Council in Bangladesh.
                     With separate classes for Cambridge and Edexcel batches,
                     there's always a spot where you can just fit in.
@@ -560,6 +566,10 @@ Hamburger image downloaded from icons8
 
     <!-- Footer Section -->
     <footer class="footer">
+        <div class="footer--logo">
+
+        </div>
+
         <div class="footer--columnSection">
             <div class="footer--leftCol">
                 <ul class="ul--footer">
@@ -628,9 +638,7 @@ Hamburger image downloaded from icons8
 
 <!-- JavaScript Scripting -->
 <script src="./js/script.js"></script>
-<script src="./js/disable_zoom_safari_ios.js"></script>
 <script src="./js/nav_menu.js"></script>
-<script src="./js/carousel.js"></script>
 <!--    <script src="./js/pvt.js"></script>-->
 <!-- <script src="./js/redirect.js"></script> -->
 

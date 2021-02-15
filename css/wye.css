@@ -15,7 +15,7 @@
 
 .wye-header-column {
     /* brings text down */
-    margin-top: 100px;
+    margin-top: 200px;
     /*padding-top: 100px;*/
 }
 
@@ -58,12 +58,12 @@
 .wye-exe-spacer {
     display: flex;
     justify-content: center;
-    margin-top: 350px;
+    margin-top: 250px;
 }
 
 .wye-exe-divider-line {
     height: 3px;
-    width: 300px;
+    width: 400px;
     border-radius: 99px;
     background-color: #F5DEB3;
 }
@@ -73,7 +73,7 @@
 .wye-what-you-get-title {
     color: wheat;
     text-align: center;
-    font-size: 55px;
+    font-size: 50px;
     font-family: "Libre Baskerville", serif;
     margin-top: 80px;
 }
@@ -107,15 +107,16 @@
 .card--whyEkE__subHeader {
     margin-top: 25px;
     color: wheat;
-    margin-left: 65px;
-    margin-right: 65px;
     font-size: 30px;
     font-weight: bold;
 }
 
+.card--whyEkE__text {
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
 .card--whyEkE__desc {
-    margin-left: 65px;
-    margin-right: 65px;
     color: #FFF6E6;
     font-size: 19px;
     line-height: 35px;

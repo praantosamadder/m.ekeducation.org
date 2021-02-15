@@ -12,27 +12,36 @@ if (md.os() === "AndroidOS" && md.userAgent() === "Chrome") {
     console.log(document.styleSheets)
 }
 
-// Hide nav bar when scrolling
-let canShowNavBar = true
-let navBar = document.getElementById("nav-bar")
 
+// Add text to HTML
 
-let prevScrollPos = window.pageYOffset;
-window.onscroll = function() {
-
-    let currentScrollPos = window.pageYOffset;
-    if (prevScrollPos > currentScrollPos) {
-        showNavBar()
-    } else {
-        hideNavBar()
-    }
-    prevScrollPos = currentScrollPos;
+let text = {
+    whyEkE__title: "The excellence of O/A Level education.",
+    whyEkE__subTitle: "Lorem ipsum dolor",
+    whyEkE__text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    whatYouGet__text: "Taught by experienced teachers in Dhaka",
+    whatYouGet__subTitle: "A promise to provide the best support for your child's academic career",
+    admissionPromise__subtitle: "ekeducation ensures that your child receives the best educare. " +
+        "Here, your child can decide which academic passion to pursue. Providing an unique academic community, your child's passion" +
+        "will build a bright future from liberal arts to the sciences."
 }
 
-function hideNavBar() {
-    navBar.style.top = "-120px"
+setText("whyEkE__title", text.whyEkE__title)
+setText("whyEkE__text", text.whyEkE__text)
+
+setText("whatYouGet__text", text.whatYouGet__text)
+setText("whatYouGet__subTitle", text.whatYouGet__subTitle)
+
+setText("admissionPromise__subtitle", text.admissionPromise__subtitle)
+
+function setText(id, text) {
+    document.getElementById(id).innerText = text
 }
 
-function showNavBar() {
-    navBar.style.top = "0px"
-}
+// Init carousel
+let flickity = new Flickity(".main-carousel", {
+    cellAlign: "left",
+    contain: true,
+    prevNextButtons: false,
+    pageDots: false
+})

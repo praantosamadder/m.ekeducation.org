@@ -1,10 +1,38 @@
 let hamburgerButton     = document.getElementById("nav-hamburger-container")
-let everythingButNav    = document.getElementById("everything-but-nav")
+let everythingButNav    = document.getElementById("articleTag")
 let navMenu             = document.getElementById("nav-menu")
 let hamburgerIcon       = document.getElementById("hamburger-icon")
 
 let isNavMenuVisible = false
+let lastUserScrollDistance = 0
 
+
+// Hide nav bar when scrolling
+let canShowNavBar = true
+let navBar = document.getElementById("nav-bar")
+
+let prevScrollPos = window.pageYOffset;
+window.onscroll = function() {
+    let currentScrollPos = window.pageYOffset;
+
+    if (prevScrollPos > currentScrollPos) {
+        showNavBar()
+    } else {
+        hideNavBar()
+    }
+    prevScrollPos = currentScrollPos;
+}
+
+function hideNavBar() {
+    navBar.style.top = "-120px"
+}
+
+function showNavBar() {
+    navBar.style.top = "0px"
+}
+
+
+// Show Nav Menu when Hamburger icon clicked
 hamburgerButton.onclick = () => {
     if (isNavMenuVisible) {
         console.log("clicked")
@@ -14,8 +42,6 @@ hamburgerButton.onclick = () => {
         showNavMenu()
     }
 }
-
-// showNavMenu()
 
 function hideNavMenu() {
     navMenu.style.display = "none"
@@ -31,8 +57,7 @@ function showNavMenu() {
     hamburgerIcon.src = "./img/icons/menu-icons/close_button.svg"
 }
 
-function
-onClick_NavMenuItem(linkId) {
+function onClick_NavMenuItem(linkId) {
     hideNavMenu()
     document.getElementById(linkId).click()
 }

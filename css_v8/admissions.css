@@ -4,7 +4,7 @@
     margin-right: 90px;
 }
 
-.accessible_to_all_text {
+.admissionPromise__title {
     color: #D1A85B;
     font-size: 56px;
     font-family: "Libre Baskerville", serif;
@@ -15,13 +15,17 @@
     color: #969696;
 }
 
-.ekeducation_teaches_all_general {
+.admissionPromise__subtitle {
     margin-top: 30px;
     font-family: "Libre Baskerville", serif;
     color: #454545;
     font-size: 13px;
     letter-spacing: 1px;
     line-height: 55px;
+}
+
+.admissionPromise__bold {
+    font-weight: 800;
 }
 
 .label__admissionChargeAndFees {

@@ -4,10 +4,10 @@
 }
 
 .nav-shortcuts {
-    background-color: #ffebcb;
-    padding: 15px;
+    background-color: wheat;
+    padding: 15px 30px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 5fr 4fr;
 }
 
 .nav-shortcuts__link {

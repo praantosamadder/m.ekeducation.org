@@ -230,12 +230,14 @@
 }
 
 .faculty-info {
-    background-color: #f5d790;
+    background-color: wheat;
 }
 
 .faculty-info-text {
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding-top: 30px;
+    padding-bottom: 0;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .mathematics-content-col {
